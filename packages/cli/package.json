@@ -1,0 +1,47 @@
+{
+  "name": "@tooltik/cap",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "cap": "dist/cap.cjs"
+  },
+  "scripts": {
+    "dev": "rimraf dist && tsup --sourcemap inline --dts --watch",
+    "build": "tsc && rimraf dist && tsup --minify",
+    "typecheck": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/lvqq/cap/issues"
+  },
+  "homepage": "https://github.com/lvqq/cap#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvqq/cap.git"
+  },
+  "keywords": [],
+  "author": "chlorine",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.1",
+    "@types/node": "^18.7.16",
+    "@types/tar": "^6.1.2",
+    "rimraf": "^3.0.2",
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "4.1.2",
+    "commander": "^9.4.0",
+    "inquirer": "8.2.4",
+    "ora": "5.4.1",
+    "tar": "^6.1.11"
+  }
+}

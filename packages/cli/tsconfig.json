@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["src", "bin", "package.json"],
+  "exclude": ["node_modules"]
+}

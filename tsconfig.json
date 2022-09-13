@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {      
+    "lib": ["esnext"],
+    "module": "esnext",
+    "noEmit": true,
+    "allowJs": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+  },
+  "exclude": ["./packages/template-*/"]
+}
