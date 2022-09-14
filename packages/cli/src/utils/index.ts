@@ -25,11 +25,11 @@ export const isWin = process.platform === 'win32';
 
 export const downloadFromNpmToDir = (pkg: string, dir: string) =>
   new Promise<void>((resolve, reject) => {
-    const result = spawnSync(`npm view ${pkg}@latest dist.tarball`, {
+    const result = spawnSync('npm', ['view', `${pkg}@latest`, 'dist.tarball'], {
       stdio: 'pipe',
       shell: isWin,
     });
-    if (result) {
+    if (result?.stdout) {
       const url = result.stdout.toString().trim();
       axios
         .get(url, { responseType: 'stream' })

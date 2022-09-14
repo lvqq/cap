@@ -5,7 +5,7 @@ export default defineConfig({
     include: ['packages/cli/**/*.test.(ts|tsx)'],
     testTimeout: 20000,
     coverage: {
-      reporter: ['lcov'],
+      reporter: ['lcov', 'text'],
     },
   },
   esbuild: {
