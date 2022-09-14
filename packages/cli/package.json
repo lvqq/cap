@@ -12,7 +12,8 @@
   "scripts": {
     "dev": "rimraf dist && tsup --sourcemap inline --dts --watch",
     "build": "tsc && rimraf dist && tsup --minify",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "changelog": "conventional-changelog -p angular -i ../../CHANGELOG.md -s --commit-path ../../ --lerna-package @tooltik/create-cap"
   },
   "files": [
     "dist"
