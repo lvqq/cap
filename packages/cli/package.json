@@ -1,13 +1,13 @@
 {
-  "name": "@tooltik/cap",
-  "version": "0.1.0",
+  "name": "@tooltik/create-cap",
+  "version": "0.1.1",
   "description": "",
   "type": "module",
   "engines": {
     "node": ">=14"
   },
   "bin": {
-    "cap": "dist/cap.cjs"
+    "create-cap": "dist/cap.cjs"
   },
   "scripts": {
     "dev": "rimraf dist && tsup --sourcemap inline --dts --watch",
