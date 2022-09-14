@@ -43,7 +43,7 @@ describe('cli-test', () => {
   test('create-force', async () => {
     expect.assertions(1);
     const program = createProgram();
-    program.parse(['create', 'output', '-f'], { from: 'user' });
+    program.parse(['output', '-f'], { from: 'user' });
     expect('pass').toBe('pass');
   });
 });
