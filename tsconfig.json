@@ -1,5 +1,6 @@
 {
-  "compilerOptions": {      
+  "compilerOptions": {    
+    "target": "esnext",  
     "lib": ["esnext"],
     "module": "esnext",
     "noEmit": true,
@@ -7,8 +8,10 @@
     "strict": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
     "moduleResolution": "node",
+    "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
