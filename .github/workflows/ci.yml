@@ -91,7 +91,7 @@ jobs:
         run: pnpm run build
 
       - name: Link
-        run: cd packages && cd cli && pnpm link --global
+        run: cd packages && cd create-cap && pnpm link --global
 
       - name: Test
         run: pnpm run test:ci

@@ -33,7 +33,7 @@ vi.mock('fs', () => ({
   },
 }));
 
-describe('cli-test', () => {
+describe('create-test', () => {
   beforeAll(() => {
     (inquirer as unknown as { prompt: Mock<any[], any> }).prompt = vi
       .fn()

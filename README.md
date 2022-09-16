@@ -50,7 +50,7 @@ Link cli after build
 ```bash
 pnpm build
 
-cd packages/cli
+cd packages/create-cap
 
 pnpm link --global
 ```
@@ -60,7 +60,7 @@ Dev cli watch
 pnpm dev
 ```
 
-Run test
+Make changes and run test
 ```bash
 pnpm test
 ```

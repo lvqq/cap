@@ -21,7 +21,7 @@ vi.mock('fs', () => ({
   },
 }));
 
-describe('cli-error-test', () => {
+describe('create-error-test', () => {
   beforeAll(() => {
     (inquirer as unknown as { prompt: Mock<any[], any> }).prompt = vi
       .fn()

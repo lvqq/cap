@@ -34,7 +34,7 @@ importers:
       typescript: registry.npmmirror.com/typescript/4.8.3
       vitest: 0.23.2
 
-  packages/cli:
+  packages/create-cap:
     specifiers:
       '@types/inquirer': ^9.0.1
       '@types/node': ^18.7.16

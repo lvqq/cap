@@ -11,8 +11,8 @@
   "scripts": {
     "dev": "pnpm -r --filter=./packages/** run dev",
     "build": "pnpm -r --filter=./packages/** run build ",
-    "dev-cli": "pnpm -r --filter=@tooltik/create-cap run dev",
-    "build-cli": "pnpm -r --filter=@tooltik/create-cap run build",
+    "dev-create": "pnpm -r --filter=@tooltik/create-cap run dev",
+    "build-create": "pnpm -r --filter=@tooltik/create-cap run build",
     "typecheck": "pnpm -r --filter=./packages/** run typecheck",
     "prepare": "husky install",
     "init": "node ./scripts/init.js",
@@ -25,7 +25,7 @@
   "author": "",
   "license": "MIT",
   "lint-staged": {
-    "packages/cli/**/*.{js,ts}": [
+    "packages/create/**/*.{js,ts}": [
       "eslint --fix --quiet",
       "prettier --write",
       "git add"
