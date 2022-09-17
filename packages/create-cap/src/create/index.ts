@@ -33,10 +33,10 @@ export const create = async (dir: string, options: { force: boolean }) => {
         pkgText
           .toString()
           .replace(/"name": "(.*)"/g, ($1, $2) => $1.replace($2, dir))
-          .replace(/"version": "(.*)"/g, ($1, $2) => $1.replace($2, '0.1.0'))
+          .replace(/"version": "(.*)"/g, ($1, $2) => $1.replace($2, '0.0.0'))
       );
       spinner.succeed(chalk.greenBright(`Install template success. Try the following steps:`));
-      Log.info(`cd ${dir} & npm install`);
+      Log.info(`\ncd ${dir} \n npm install`);
     } else {
       throw new Error('no package found');
     }
