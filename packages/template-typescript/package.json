@@ -41,7 +41,7 @@
     "vitest": "^0.23.2"
   },
   "lint-staged": {
-    "**/*.{js,ts}": [
+    "**/*.ts": [
       "eslint --fix --quiet",
       "prettier --write",
       "git add"
