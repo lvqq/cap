@@ -18,6 +18,7 @@
     "init": "node ./scripts/init.js",
     "test": "vitest run --silent",
     "test:ci": "vitest run --coverage",
+    "test:template": "pnpm -r --filter=./packages/template-* run test",
     "lint": "eslint --fix --quiet packages/*/src/**/*.{ts,tsx}",
     "changelog": "pnpm -r --filter=@tooltik/create-cap run changelog"
   },

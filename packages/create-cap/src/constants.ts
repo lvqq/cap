@@ -1,6 +1,7 @@
 export const TemplatesNameMap = {
   TypeScript: '@tooltik/template-typescript',
   'React + TypeScript': '@tooltik/template-react-typescript',
+  'Vue + TypeScript': '@tooltik/template-vue-typescript',
 } as const;
 
 export const GitIgnoreFile = `

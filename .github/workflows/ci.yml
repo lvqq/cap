@@ -93,7 +93,10 @@ jobs:
       - name: Link
         run: cd packages && cd create-cap && pnpm link --global
 
-      - name: Test
+      - name: Test Tempalte
+        run: pnpm run test:template
+
+      - name: Test CI
         run: pnpm run test:ci
 
       - name: Coveralls
