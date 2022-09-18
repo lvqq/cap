@@ -1,21 +1,32 @@
+# cap
+
 [![npm version](https://img.shields.io/npm/v/@tooltik/create-cap.svg)](https://www.npmjs.com/package/@tooltik/create-cap) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lvqq/cap/CI) [![Coverage Status](https://coveralls.io/repos/github/lvqq/cap/badge.svg?branch=main)](https://coveralls.io/github/lvqq/cap?branch=main) ![GitHub](https://img.shields.io/github/license/lvqq/cap)
 
-# Guide
-Cap means **create awesome project**, it has some common engineering configurations built in. You can create a project with one line of command.
+cap means **create awesome project**, it has some common engineering configurations built in. You can create a project with one line of command.
 
-# Usage
+## Usage
 ```bash
 # npm
 npm create @tooltik/cap my-cap-app
-
 # yarn
 yarn create @tooltik/cap my-cap-app
-
 # pnpm
 pnpm create @tooltik/cap my-cap-app
 ```
 
-# Common configurations
+You can also directly specify the template:
+
+```bash
+# npm
+npm create @tooltik/cap my-cap-app --template ts
+# yarn
+yarn create @tooltik/cap my-cap-app --template ts
+# pnpm
+pnpm create @tooltik/cap my-cap-app --template ts
+```
+supported templates: `ts`, `react-ts`,`vue-ts`
+
+## Common configurations
 - `TypeScript`
 - `eslint`
 - `prettier`
@@ -24,16 +35,18 @@ pnpm create @tooltik/cap my-cap-app
 - `vitest`
 - `github workflow`
 
-# Templates
-We have two templates currently:
-- TypeScript
-- React + TypeScript
+## Templates
+We have three templates currently:
 
-## TypeScript
+### ts
 Use `tsup` to build project using only `TypeScript`
 
-## React + TypeScript
-Use `vite` to build project using `React` and `TypeScript`
+### react-ts
+Use `vite` to build project using `React18` and `TypeScript`
+
+### vue-ts
+Use `vite` to build project using `Vue3` and `TypeScript`
+
 
 # Dev
 Run the following script before your first install
@@ -49,9 +62,7 @@ pnpm install
 Link cli after build
 ```bash
 pnpm build
-
 cd packages/create-cap
-
 pnpm link --global
 ```
 

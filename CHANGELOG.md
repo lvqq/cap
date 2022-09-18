@@ -1,3 +1,19 @@
+# 0.2.0 (2022-09-18)
+
+
+### Bug Fixes
+
+* set default template verison from 0.1.0 to 0.0.0 ([37b49cf](https://github.com/lvqq/cap/commit/37b49cf7727b1367d85d19f36d006b449f9da146))
+
+
+
+### Features
+
+* add --template option ([a70a371](https://github.com/lvqq/cap/commit/a70a371fb2eb2b100fd638600d344fe35086053c))
+* add template-vue-typescript ([b596cf8](https://github.com/lvqq/cap/commit/b596cf806f1742640d5f61ffd8bf7bdb09cb37e5))
+
+
+
 ## 0.1.2 (2022-09-14)
 
 
