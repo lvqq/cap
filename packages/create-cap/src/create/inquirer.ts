@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-import { TemplatesNameMap } from '../constants';
+import { QuestionTemplatesNameMap } from '../constants';
 
 export const questionTemplate = () =>
   inquirer.prompt([
@@ -7,6 +7,6 @@ export const questionTemplate = () =>
       name: 'template',
       message: 'Select a template',
       type: 'list',
-      choices: Object.keys(TemplatesNameMap),
+      choices: Object.keys(QuestionTemplatesNameMap),
     },
   ]);

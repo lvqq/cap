@@ -43,7 +43,14 @@ describe('create-test', () => {
   test('create-force', async () => {
     expect.assertions(1);
     const program = createProgram();
-    program.parse(['output', '-f'], { from: 'user' });
+    program.parse(['output.force', '-f'], { from: 'user' });
+    expect('pass').toBe('pass');
+  });
+
+  test('create-template', async () => {
+    expect.assertions(1);
+    const program = createProgram();
+    program.parse(['output.template', '-f', '-t', 'vue-ts'], { from: 'user' });
     expect('pass').toBe('pass');
   });
 });

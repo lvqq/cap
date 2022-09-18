@@ -26,7 +26,7 @@
   "author": "",
   "license": "MIT",
   "lint-staged": {
-    "packages/create/**/*.{js,ts}": [
+    "packages/create-cap/**/*.ts": [
       "eslint --fix --quiet",
       "prettier --write",
       "git add"

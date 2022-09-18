@@ -3,14 +3,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 import ora from 'ora';
 
-import { GitIgnoreFile, TemplatesNameMap } from '../constants';
+import { GitIgnoreFile, QuestionTemplatesNameMap, CliTemplatesNameMap } from '../constants';
 import { downloadFromNpmToDir, Log } from '../utils';
 import { questionTemplate } from './inquirer';
 
-export const create = async (dir: string, options: { force: boolean }) => {
-  const { force } = options;
-  const { template } = await questionTemplate();
-  const templatePkg = TemplatesNameMap[template as keyof typeof TemplatesNameMap];
+export const create = async (dir: string, options: { force: boolean; template?: string }) => {
+  const { force, template } = options;
+  let templatePkg = '';
+  if (template) {
+    templatePkg = CliTemplatesNameMap[template as keyof typeof CliTemplatesNameMap];
+  }
+  if (!templatePkg) {
+    const { template: templateAnswer } = await questionTemplate();
+    templatePkg = QuestionTemplatesNameMap[templateAnswer as keyof typeof QuestionTemplatesNameMap];
+  }
   if (fs.existsSync(dir)) {
     if (!force) {
       Log.fail(`Directory ${dir} already exists, please use anothor name or add --force option.`);
@@ -36,7 +42,7 @@ export const create = async (dir: string, options: { force: boolean }) => {
           .replace(/"version": "(.*)"/g, ($1, $2) => $1.replace($2, '0.0.0'))
       );
       spinner.succeed(chalk.greenBright(`Install template success. Try the following steps:`));
-      Log.info(`\ncd ${dir} \n npm install`);
+      Log.info(`\ncd ${dir} \nnpm install`);
     } else {
       throw new Error('no package found');
     }

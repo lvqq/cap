@@ -1,7 +1,13 @@
-export const TemplatesNameMap = {
+export const QuestionTemplatesNameMap = {
   TypeScript: '@tooltik/template-typescript',
   'React + TypeScript': '@tooltik/template-react-typescript',
   'Vue + TypeScript': '@tooltik/template-vue-typescript',
+} as const;
+
+export const CliTemplatesNameMap = {
+  ts: '@tooltik/template-typescript',
+  'react-ts': '@tooltik/template-react-typescript',
+  'vue-ts': '@tooltik/template-vue-typescript',
 } as const;
 
 export const GitIgnoreFile = `

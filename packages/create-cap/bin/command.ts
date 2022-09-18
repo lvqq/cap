@@ -12,6 +12,7 @@ const createProgram = () => {
     .description('create awesome project by one line of command ')
     .argument('<name>', 'Project name')
     .option('-f, --force', 'Force to create project which will delete exist directory', false)
+    .option('-t, --template <template>', 'Create project from a template')
     .action((name, options) => create(name, options));
 
   return program;
