@@ -1,6 +1,6 @@
 {
   "name": "@tooltik/template-svelte-typescript",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
