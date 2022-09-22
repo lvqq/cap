@@ -1,10 +1,23 @@
+# 0.3.0 (2022-09-22)
+
+
+### Bug Fixes
+
+* make cli option consistant with question option ([9c6d685](https://github.com/lvqq/cap/commit/9c6d685216bac645c1730e86bd8a58296e69837a))
+
+
+### Features
+
+* add template-svelte-typescript ([3bf2fcc](https://github.com/lvqq/cap/commit/3bf2fccfd9e6e923d26dfad002fbd136cfe82769))
+
+
+
 # 0.2.0 (2022-09-18)
 
 
 ### Bug Fixes
 
 * set default template verison from 0.1.0 to 0.0.0 ([37b49cf](https://github.com/lvqq/cap/commit/37b49cf7727b1367d85d19f36d006b449f9da146))
-
 
 
 ### Features

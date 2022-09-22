@@ -24,7 +24,7 @@ yarn create @tooltik/cap my-cap-app --template ts
 # pnpm
 pnpm create @tooltik/cap my-cap-app --template ts
 ```
-supported templates: `ts`, `react-ts`,`vue-ts`
+supported templates: `ts`, `react-ts`, `vue-ts`, `svelte-ts`
 
 ## Common configurations
 - `TypeScript`
@@ -47,6 +47,8 @@ Use `vite` to build project using `React18` and `TypeScript`
 ### vue-ts
 Use `vite` to build project using `Vue3` and `TypeScript`
 
+### svelte-ts
+Use `vite` to build project using `Svelte3` and `TypeScript`
 
 # Dev
 Run the following script before your first install
@@ -62,13 +64,15 @@ pnpm install
 Link cli after build
 ```bash
 pnpm build
+
 cd packages/create-cap
+
 pnpm link --global
 ```
 
-Dev cli watch
+Go back to root and run dev cli watch
 ```bash
-pnpm dev
+pnpm dev-create
 ```
 
 Make changes and run test
