@@ -25,11 +25,13 @@ vi.mock('node:child_process', async () => ({
 }));
 vi.mock('fs', () => ({
   default: {
-    rmSync: vi.fn(),
-    mkdirSync: vi.fn(),
+    promises: {
+      rm: vi.fn(),
+      mkdir: vi.fn(),
+      readFile: vi.fn(() => ''),
+      writeFile: vi.fn(),
+    },
     existsSync: vi.fn(() => true),
-    readFileSync: vi.fn(() => ''),
-    writeFileSync: vi.fn(),
   },
 }));
 

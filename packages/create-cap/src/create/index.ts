@@ -22,19 +22,19 @@ export const create = async (dir: string, options: { force: boolean; template?: 
       Log.fail(`Directory ${dir} already exists, please use anothor name or add --force option.`);
       return;
     }
-    fs.rmSync(dir, { recursive: true });
+    await fs.promises.rm(dir, { recursive: true });
   }
-  fs.mkdirSync(dir);
+  await fs.promises.mkdir(dir);
   const spinner = ora(chalk.blueBright('Fetch template start')).start();
   try {
     await downloadFromNpmToDir(templatePkg, dir);
     const pkgPath = path.join(dir, 'package.json');
     if (fs.existsSync(pkgPath)) {
       // write .gitignore file
-      fs.writeFileSync(path.join(dir, '.gitignore'), GitIgnoreFile);
+      await fs.promises.writeFile(path.join(dir, '.gitignore'), GitIgnoreFile);
       // handle package.json name/version
-      const pkgText = fs.readFileSync(pkgPath);
-      fs.writeFileSync(
+      const pkgText = await fs.promises.readFile(pkgPath);
+      await fs.promises.writeFile(
         pkgPath,
         pkgText
           .toString()
