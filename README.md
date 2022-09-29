@@ -36,7 +36,7 @@ supported templates: `ts`, `react-ts`, `vue-ts`, `svelte-ts`
 - `github workflow`
 
 ## Templates
-We have three templates currently:
+We have the following templates:
 
 ### ts
 Use `tsup` to build project using only `TypeScript`
@@ -56,28 +56,28 @@ Run the following script before your first install
 pnpm run init
 ```
 
-Then install
+Install
 ```bash
 pnpm install
 ```
 
 Link cli after build
 ```bash
-pnpm build
-
-cd packages/create-cap
-
-pnpm link --global
+pnpm build && pnpm --dir ./packages/create-cap link --global
 ```
 
-Go back to root and run dev cli watch
+Make changes, run build or watch mode
 ```bash
+# run build
+pnpm build-create
+
+# run dev watch
 pnpm dev-create
 ```
 
-Make changes and run test
+Run all test
 ```bash
-pnpm test
+pnpm test && pnpm test:template
 ```
 
 # License

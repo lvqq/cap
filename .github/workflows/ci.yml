@@ -82,7 +82,7 @@ jobs:
           node-version: ${{ matrix.node_version }}
       
       - name: Init husky
-        run: node ./scripts/init.js
+        run: pnpm run init
 
       - name: Install
         run: pnpm install
@@ -91,7 +91,7 @@ jobs:
         run: pnpm run build
 
       - name: Link
-        run: cd packages && cd create-cap && pnpm link --global
+        run: pnpm --dir ./packages/create-cap link --global
 
       - name: Test Tempalte
         run: pnpm run test:template

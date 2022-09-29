@@ -25,7 +25,7 @@ describe('create-error-test', () => {
   beforeAll(() => {
     (inquirer as unknown as { prompt: Mock<any[], any> }).prompt = vi
       .fn()
-      .mockResolvedValue({ template: 'TypeScript' });
+      .mockResolvedValue({ template: 'ts' });
   });
 
   test('create-force', async () => {
