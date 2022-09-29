@@ -4,10 +4,10 @@
   "description": "",
   "type": "module",
   "engines": {
-    "node": ">=14"
+    "node": "^12.17.0 || ^14.13.0 || >=16.0.0"
   },
   "bin": {
-    "create-cap": "dist/cap.cjs"
+    "create-cap": "dist/cap.js"
   },
   "scripts": {
     "dev": "rimraf dist && tsup --sourcemap inline --dts --watch",
@@ -30,7 +30,7 @@
   "author": "chlorine",
   "license": "MIT",
   "devDependencies": {
-    "@types/inquirer": "^9.0.1",
+    "@types/inquirer": "^9.0.2",
     "@types/node": "^18.7.16",
     "@types/tar": "^6.1.2",
     "rimraf": "^3.0.2",
@@ -39,10 +39,10 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "chalk": "4.1.2",
+    "chalk": "5.0.1",
     "commander": "^9.4.0",
-    "inquirer": "8.2.4",
-    "ora": "5.4.1",
+    "inquirer": "9.1.2",
+    "ora": "6.1.2",
     "tar": "^6.1.11"
   }
 }
