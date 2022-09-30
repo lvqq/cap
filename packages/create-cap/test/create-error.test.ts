@@ -1,15 +1,11 @@
-import { beforeAll, describe, expect, Mock, test, vi } from 'vitest';
-import inquirer from 'inquirer';
-import { createProgram } from '../bin/command';
+import { describe, expect, test, vi } from 'vitest';
+import axios from 'axios';
+import { create } from '../src';
 
-vi.mock('inquirer');
 vi.mock('axios', () => ({
   default: {
     get: vi.fn().mockRejectedValue(new Error('test message')),
   },
-}));
-vi.mock('node:child_process', () => ({
-  spawnSync: vi.fn(() => ({ stdout: 1 })),
 }));
 vi.mock('fs', () => ({
   default: {
@@ -24,23 +20,17 @@ vi.mock('fs', () => ({
 }));
 
 describe('create-error-test', () => {
-  beforeAll(() => {
-    (inquirer as unknown as { prompt: Mock<any[], any> }).prompt = vi
-      .fn()
-      .mockResolvedValue({ template: 'ts' });
-  });
-
-  test('create-force', async () => {
-    expect.assertions(1);
-    const program = createProgram();
-    program.parse(['output', '-f'], { from: 'user' });
-    expect('pass').toBe('pass');
-  });
-
   test('create-repeat', async () => {
     expect.assertions(1);
-    const program = createProgram();
-    program.parse(['output'], { from: 'user' });
-    expect('pass').toBe('pass');
+    const axiosSpy = vi.spyOn(axios, 'get');
+    await create('output', { template: 'ts' });
+    expect(axiosSpy).toHaveBeenCalledTimes(0);
+  });
+
+  test('create-fetch-template-failed', async () => {
+    expect.assertions(1);
+    const axiosSpy = vi.spyOn(axios, 'get');
+    await create('output', { force: true, template: 'ts' });
+    expect(axiosSpy).toHaveBeenCalledTimes(1);
   });
 });

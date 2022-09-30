@@ -15,7 +15,7 @@
     "build-create": "pnpm -r --filter=@tooltik/create-cap run build",
     "typecheck": "pnpm -r --filter=./packages/** run typecheck",
     "prepare": "husky install",
-    "init": "node ./scripts/init.js",
+    "init": "node ./scripts/init.mjs",
     "test": "vitest run --silent",
     "test:ci": "vitest run --coverage",
     "test:template": "pnpm -r --filter=./packages/template-* run test",

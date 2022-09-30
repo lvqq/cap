@@ -24,7 +24,7 @@ jobs:
           node-version: '14'
 
       - name: Init husky
-        run: node ./scripts/init.js
+        run: pnpm run init
 
       - name: Install
         run: pnpm install
@@ -46,7 +46,7 @@ jobs:
           node-version: '14'
 
       - name: Init husky
-        run: node ./scripts/init.js
+        run: pnpm run init
 
       - name: Install
         run: pnpm install

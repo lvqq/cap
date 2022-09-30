@@ -1,42 +1,14 @@
 import { beforeAll, describe, expect, Mock, test, vi } from 'vitest';
 import inquirer from 'inquirer';
-import { createProgram } from '../bin/command';
+import fs from 'node:fs';
+import { create } from '../src';
 
 vi.mock('inquirer');
-vi.mock('axios', async () => {
-  const mockTrigger: Mock = vi.fn((type: string, callback: () => void) => {
-    if (type === 'finish') {
-      callback();
-    }
-    return { on: mockTrigger, pipe: mockTrigger };
-  });
-  return {
-    default: {
-      get: vi.fn().mockResolvedValue({
-        data: {
-          on: mockTrigger,
-        },
-      }),
-    },
-  };
-});
-vi.mock('node:child_process', async () => ({
-  spawnSync: vi.fn(() => ({ stdout: 1 })),
-}));
-vi.mock('fs', () => ({
-  default: {
-    promises: {
-      rm: vi.fn(),
-      mkdir: vi.fn(),
-      readFile: vi.fn(() => ''),
-      writeFile: vi.fn(),
-    },
-    existsSync: vi.fn(() => true),
-  },
-}));
+
+const testDir = './output/force';
 
 describe('create-test', () => {
-  beforeAll(() => {
+  beforeAll(async () => {
     (inquirer as unknown as { prompt: Mock<any[], any> }).prompt = vi
       .fn()
       .mockResolvedValue({ template: 'ts' });
@@ -44,15 +16,7 @@ describe('create-test', () => {
 
   test('create-force', async () => {
     expect.assertions(1);
-    const program = createProgram();
-    program.parse(['output.force', '-f'], { from: 'user' });
-    expect('pass').toBe('pass');
-  });
-
-  test('create-template', async () => {
-    expect.assertions(1);
-    const program = createProgram();
-    program.parse(['output.template', '-f', '-t', 'vue-ts'], { from: 'user' });
-    expect('pass').toBe('pass');
+    await create(testDir, { force: true });
+    expect(fs.existsSync(`${testDir}/package.json`)).toBeTruthy();
   });
 });
