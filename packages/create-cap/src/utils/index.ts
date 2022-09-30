@@ -33,12 +33,14 @@ export const downloadFromNpmToDir = (pkg: string, dir: string) =>
       const url = result.stdout.toString().trim();
       axios
         .get(url, { responseType: 'stream' })
-        .then(({ data: zip }) => {
+        .then((res) => {
+          const { data: zip } = res;
           zip
             .on('error', reject)
             .pipe(
               tar.x({
                 C: dir,
+                cwd: dir,
                 strip: 1,
               })
             )
