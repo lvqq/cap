@@ -1,3 +1,17 @@
+## 0.3.1 (2022-09-30)
+
+
+### Bug Fixes
+
+* add path resolve and cwd ([bf45320](https://github.com/lvqq/cap/commit/bf45320f3a4effe46c53fea0608f487c8ce32241))
+
+
+### Performance Improvements
+
+* replace fs sync with fs.promise ([9820f74](https://github.com/lvqq/cap/commit/9820f74b96274f96e1f1a3230e722557bd31d15b))
+
+
+
 # 0.3.0 (2022-09-22)
 
 
@@ -38,6 +52,8 @@
 
 
 # 0.1.0 (2022-09-13)
+
+
 
 * release v0.1.0 ([807affd](https://github.com/lvqq/cap/commit/807affdd3de001877c90194013a4956101d664da))
 
