@@ -1,4 +1,4 @@
-import { afterAll, describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vitest';
 import fs from 'node:fs';
 import { create } from '../src';
 
@@ -32,10 +32,5 @@ describe('create-template-test', () => {
     expect.assertions(1);
     await create(testDir['svelte-ts'], { force: true, template: 'svelte-ts' });
     expect(fs.existsSync(`${testDir['svelte-ts']}/package.json`)).toBeTruthy();
-  });
-
-  afterAll(async () => {
-    // remove all test output
-    await fs.promises.rm('./output', { recursive: true });
   });
 });
