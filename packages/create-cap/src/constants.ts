@@ -5,6 +5,8 @@ export const TemplatesNameMap = {
   'svelte-ts': '@tooltik/template-svelte-typescript',
 } as const;
 
+export type TemplatesNameKey = keyof typeof TemplatesNameMap;
+
 export const GitIgnoreFile = `
 # Logs
 *.log

@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import ora from 'ora';
 import { GitIgnoreFile, TemplatesNameMap } from '../constants';
+import type { TemplatesNameKey } from '../constants';
 import { downloadFromNpmToDir, Log } from '../utils';
 import { questionTemplate } from './inquirer';
 
@@ -13,11 +14,11 @@ export const create = async (name: string, options?: { force?: boolean; template
   const { force, template } = options || {};
   let templatePkg = '';
   if (template) {
-    templatePkg = TemplatesNameMap[template as keyof typeof TemplatesNameMap];
+    templatePkg = TemplatesNameMap[template as TemplatesNameKey];
   }
   if (!templatePkg) {
     const { template: templateAnswer } = await questionTemplate();
-    templatePkg = TemplatesNameMap[templateAnswer as keyof typeof TemplatesNameMap];
+    templatePkg = TemplatesNameMap[templateAnswer as TemplatesNameKey];
   }
   if (fs.existsSync(dir)) {
     if (!force) {
