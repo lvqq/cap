@@ -38,8 +38,7 @@
   "lint-staged": {
     "**/*.{ts,svelte}": [
       "eslint --fix --quiet",
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }

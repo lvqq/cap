@@ -28,8 +28,7 @@
   "lint-staged": {
     "packages/create-cap/**/*.ts": [
       "eslint --fix --quiet",
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "devDependencies": {
