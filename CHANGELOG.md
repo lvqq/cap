@@ -1,3 +1,13 @@
+## 0.3.2 (2022-10-05)
+
+
+### Bug Fixes
+
+* lint-staged warning ([b7bf17c](https://github.com/lvqq/cap/commit/b7bf17c5e01812efc63311a44d722d1a06d4fce0))
+* optimize type declare & add prepublishOnly ([14de8d9](https://github.com/lvqq/cap/commit/14de8d907589bf0832089e1017b68251c7622012))
+
+
+
 ## 0.3.1 (2022-09-30)
 
 
