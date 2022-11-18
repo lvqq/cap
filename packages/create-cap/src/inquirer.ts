@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-import { TemplatesNameMap } from '../constants';
+import { TemplatesNameMap } from './constants';
 
 export const questionTemplate = () =>
   inquirer.prompt([

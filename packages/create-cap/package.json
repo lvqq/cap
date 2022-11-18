@@ -1,6 +1,6 @@
 {
   "name": "@tooltik/create-cap",
-  "version": "0.3.2",
+  "version": "0.3.3-beta.3",
   "description": "",
   "type": "module",
   "engines": {
@@ -17,7 +17,9 @@
     "changelog": "conventional-changelog -p angular -i ../../CHANGELOG.md -s --commit-path ../../ --lerna-package @tooltik/create-cap"
   },
   "files": [
-    "dist"
+    "dist",
+    "public",
+    "public/.gitignore"
   ],
   "bugs": {
     "url": "https://github.com/lvqq/cap/issues"
