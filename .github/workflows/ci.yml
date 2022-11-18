@@ -24,7 +24,7 @@ jobs:
           node-version: '14'
 
       - name: Install
-        run: pnpm install
+        run: pnpm install --ignore-scripts
 
       - name: Lint
         run: pnpm run lint
@@ -43,7 +43,7 @@ jobs:
           node-version: '14'
 
       - name: Install
-        run: pnpm install
+        run: pnpm install --ignore-scripts
 
       - name: Typecheck
         run: pnpm run typecheck
@@ -71,7 +71,7 @@ jobs:
           node-version: ${{ matrix.node_version }}
 
       - name: Install
-        run: pnpm install
+        run: pnpm install --ignore-scripts
 
       - name: Build
         run: pnpm run build
