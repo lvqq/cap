@@ -1,3 +1,12 @@
+## 0.3.3 (2022-11-18)
+
+
+### Bug Fixes
+
+* migrate common configs from template to create-cap public directory ([083e4a9](https://github.com/lvqq/cap/commit/083e4a966b5884caf58942f879f3e2a61243a9d9))
+
+
+
 ## 0.3.2 (2022-10-05)
 
 

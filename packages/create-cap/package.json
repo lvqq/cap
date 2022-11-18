@@ -1,6 +1,6 @@
 {
   "name": "@tooltik/create-cap",
-  "version": "0.3.3-beta.3",
+  "version": "0.3.3",
   "description": "",
   "type": "module",
   "engines": {

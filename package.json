@@ -16,7 +16,7 @@
     "typecheck": "pnpm -r --filter=./packages/** run typecheck",
     "prepare": "husky install",
     "init": "node ./scripts/init.mjs",
-    "test": "vitest run --silent",
+    "test": "vitest run",
     "test:ci": "vitest run --coverage",
     "test:template": "pnpm -r --filter=./packages/template-* run test",
     "lint": "eslint --fix --quiet packages/*/src/**/*.{ts,tsx}",
