@@ -9,7 +9,8 @@
     "prepare": "husky install",
     "typecheck": "svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
-    "lint": "eslint --fix --quiet --ext .ts,.svelte src"
+    "format": "prettier --plugin-search-dir . --write .",
+    "lint": "prettier --plugin-search-dir . --check --write . && eslint --fix --quiet --ext .ts,.svelte src"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.2",
