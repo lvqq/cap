@@ -14,13 +14,14 @@
     "dev-create": "pnpm -r --filter=@tooltik/create-cap run dev",
     "build-create": "pnpm -r --filter=@tooltik/create-cap run build",
     "typecheck": "pnpm -r --filter=./packages/** run typecheck",
+    "install": "pnpm install --ignore-scripts",
     "prepare": "husky install",
-    "init": "node ./scripts/init.mjs",
     "test": "vitest run",
     "test:ci": "vitest run --coverage",
     "test:template": "pnpm -r --filter=./packages/template-* run test",
     "lint": "eslint --fix --quiet packages/*/src/**/*.{ts,tsx}",
-    "changelog": "pnpm -r --filter=@tooltik/create-cap run changelog"
+    "changelog": "pnpm -r --filter=@tooltik/create-cap run changelog",
+    "publish": "pnpm -r --filter=%npm_config_filter% exec npm publish"
   },
   "keywords": [],
   "author": "",

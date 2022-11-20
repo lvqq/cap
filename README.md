@@ -50,10 +50,13 @@ Use `vite` to build project using `Vue3` and `TypeScript`
 ### svelte-ts
 Use `vite` to build project using `Svelte3` and `TypeScript`
 
-# Dev
+# Development
 Install with `--ignore-scripts` option or it will fail
 ```bash
 pnpm install --ignore-scripts
+
+# Or
+pnpm run install
 ```
 
 Link cli after build
@@ -73,6 +76,11 @@ pnpm dev-create
 Run all test
 ```bash
 pnpm test && pnpm test:template
+```
+
+# Publish
+```bash
+npm run publish --filter=<pkg>
 ```
 
 # License
