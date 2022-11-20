@@ -1,6 +1,6 @@
 {
   "name": "@tooltik/template-svelte-typescript",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,8 +9,7 @@
     "prepare": "husky install",
     "typecheck": "svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
-    "format": "prettier --plugin-search-dir . --write .",
-    "lint": "prettier --plugin-search-dir . --check --write . && eslint --fix --quiet --ext .ts,.svelte src"
+    "lint": "prettier --plugin-search-dir . --check --write ./**/*.svelte  ./**/*.ts && eslint --fix --quiet --ext .ts,.svelte src"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.2",
@@ -40,7 +39,7 @@
   "lint-staged": {
     "**/*.{ts,svelte}": [
       "eslint --fix --quiet",
-      "prettier --write"
+      "prettier --plugin-search-dir . --check --write"
     ]
   }
 }
