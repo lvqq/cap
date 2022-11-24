@@ -30,7 +30,7 @@
     "vite": "^3.1.0",
     "vitest": "^0.25.0",
     "vue-eslint-parser": "^9.1.0",
-    "vue-tsc": "^0.40.4"
+    "vue-tsc": "^1.0.0"
   },
   "lint-staged": {
     "**/*.{ts,vue}": [
