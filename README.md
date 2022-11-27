@@ -1,6 +1,6 @@
 # cap
 
-[![npm version](https://img.shields.io/npm/v/@tooltik/create-cap.svg)](https://www.npmjs.com/package/@tooltik/create-cap) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lvqq/cap/CI) [![Coverage Status](https://coveralls.io/repos/github/lvqq/cap/badge.svg?branch=main)](https://coveralls.io/github/lvqq/cap?branch=main) ![GitHub](https://img.shields.io/github/license/lvqq/cap)
+[![npm version](https://img.shields.io/npm/v/@tooltik/create-cap.svg)](https://www.npmjs.com/package/@tooltik/create-cap) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lvqq/cap/CI) [![Coverage Status](https://coveralls.io/repos/github/lvqq/cap/badge.svg?branch=main)](https://coveralls.io/github/lvqq/cap?branch=main) ![node-current (scoped)](https://img.shields.io/node/v/@tooltik/create-cap) ![GitHub](https://img.shields.io/github/license/lvqq/cap)
 
 cap means **create awesome project**, it has some common engineering configurations built in. You can create a project with one line of command.
 
