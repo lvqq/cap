@@ -79,8 +79,14 @@ pnpm test && pnpm test:template
 ```
 
 # Publish
+## latest
 ```bash
 npm run publish --filter=<pkg>
+```
+
+## beta
+```bash
+npm run publish --filter=<pkg> --tag=<tag>
 ```
 
 # License

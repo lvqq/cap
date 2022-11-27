@@ -21,7 +21,8 @@
     "test:template": "pnpm -r --filter=./packages/template-* run test",
     "lint": "eslint --fix --quiet packages/*/src/**/*.{ts,tsx}",
     "changelog": "pnpm -r --filter=@tooltik/create-cap run changelog",
-    "publish": "pnpm -r --filter=%npm_config_filter% exec npm publish"
+    "publish": "pnpm -r --filter=%npm_config_filter% exec npm publish",
+    "publish:tag": "pnpm -r --filter=%npm_config_filter% exec npm publish --tag %npm_config_tag%"
   },
   "keywords": [],
   "author": "",

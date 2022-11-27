@@ -26,12 +26,16 @@ export class Log {
 
 export const isWin = process.platform === 'win32';
 
-export const downloadFromNpmToDir = (pkg: string, dir: string) =>
+export const downloadFromNpmToDir = (pkg: string, dir: string, beta = false) =>
   new Promise<void>((resolve, reject) => {
-    const result = spawnSync('npm', ['view', `${pkg}@latest`, 'dist.tarball'], {
-      stdio: 'pipe',
-      shell: isWin,
-    });
+    const result = spawnSync(
+      'npm',
+      ['view', `${pkg}@${beta ? 'beta' : 'latest'}`, 'dist.tarball'],
+      {
+        stdio: 'pipe',
+        shell: isWin,
+      }
+    );
     if (result?.stdout) {
       const url = result.stdout.toString().trim();
       axios

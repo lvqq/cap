@@ -14,9 +14,12 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const cwd = process.cwd();
 
-export const create = async (name: string, options?: { force?: boolean; template?: string }) => {
+export const create = async (
+  name: string,
+  options?: { force?: boolean; template?: string; beta?: boolean }
+) => {
   const dir = path.resolve(cwd, name);
-  const { force, template } = options || {};
+  const { force, template, beta } = options || {};
   let templatePkg = '';
   if (template) {
     templatePkg = TemplatesNameMap[template as TemplatesNameKey];
@@ -36,7 +39,7 @@ export const create = async (name: string, options?: { force?: boolean; template
 
   const spinner = ora(chalk.blueBright('Fetch template start')).start();
   try {
-    await downloadFromNpmToDir(templatePkg, dir);
+    await downloadFromNpmToDir(templatePkg, dir, beta);
     const pkgPath = path.join(dir, 'package.json');
     if (fs.existsSync(pkgPath)) {
       // cp files under public directory

@@ -6,6 +6,7 @@ import { create } from '../src';
 vi.mock('inquirer');
 
 const testDir = './output/force';
+const betaDir = './output/beta';
 
 describe('create-test', () => {
   beforeAll(async () => {
@@ -18,5 +19,11 @@ describe('create-test', () => {
     expect.assertions(1);
     await create(testDir, { force: true });
     expect(fs.existsSync(`${testDir}/package.json`)).toBeTruthy();
+  });
+
+  test('create-beta', async () => {
+    expect.assertions(1);
+    await create(betaDir, { force: true, beta: true });
+    expect(fs.existsSync(`${betaDir}/package.json`)).toBeTruthy();
   });
 });

@@ -19,7 +19,8 @@
   "files": [
     "dist",
     "public",
-    "public/.gitignore"
+    "public/.gitignore",
+    "../../README.md"
   ],
   "bugs": {
     "url": "https://github.com/lvqq/cap/issues"

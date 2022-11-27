@@ -13,6 +13,7 @@ const createProgram = () => {
     .argument('<name>', 'Project name')
     .option('-f, --force', 'Force to create project which will delete exist directory', false)
     .option('-t, --template <template>', 'Create project from a template')
+    .option('--beta', 'Create project from a template with beta tag', false)
     .action((name, options) => create(name, options));
 
   return program;
