@@ -101,3 +101,17 @@ export const cp = async (source: string, target: string): Promise<void> => {
     throw e;
   }
 };
+
+export const setScript = (
+  scripts: { key: string; value: string },
+  options?: { cwd?: string | URL }
+): void => {
+  const result = spawnSync('npm', ['pkg', 'set', `scripts.${scripts.key}="${scripts.value}"`], {
+    stdio: 'pipe',
+    shell: isWin,
+    cwd: options?.cwd,
+  });
+  if (result.status || !result.stdout) {
+    throw new Error(`Set scripts ${scripts.key} failed`);
+  }
+};

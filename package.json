@@ -14,7 +14,6 @@
     "dev-create": "pnpm -r --filter=@tooltik/create-cap run dev",
     "build-create": "pnpm -r --filter=@tooltik/create-cap run build",
     "typecheck": "pnpm -r --filter=./packages/** run typecheck",
-    "install": "pnpm install --ignore-scripts",
     "prepare": "husky install",
     "test": "vitest run",
     "test:ci": "vitest run --coverage",
@@ -22,7 +21,7 @@
     "lint": "eslint --fix --quiet packages/*/src/**/*.{ts,tsx}",
     "changelog": "pnpm -r --filter=@tooltik/create-cap run changelog",
     "publish": "pnpm -r --filter=%npm_config_filter% exec npm publish",
-    "publish:tag": "pnpm -r --filter=%npm_config_filter% exec npm publish --tag %npm_config_tag%"
+    "publish:beta": "pnpm -r --filter=%npm_config_filter% exec npm publish --tag beta"
   },
   "keywords": [],
   "author": "",

@@ -1,6 +1,6 @@
 {
   "name": "@tooltik/template-typescript",
-  "version": "0.1.4",
+  "version": "0.1.5-beta.0",
   "description": "",
   "type": "module",
   "main": "./dist/index.js",
@@ -16,7 +16,6 @@
   "scripts": {
     "dev": "rimraf dist && tsup --sourcemap inline --watch",
     "build": "rimraf dist && tsup --treeshake --minify",
-    "prepare": "husky install",
     "typecheck": "tsc",
     "test": "vitest run",
     "lint": "eslint --fix --quiet --ext .ts src"

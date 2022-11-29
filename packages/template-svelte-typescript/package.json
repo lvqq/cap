@@ -1,12 +1,11 @@
 {
   "name": "@tooltik/template-svelte-typescript",
-  "version": "0.1.4",
+  "version": "0.1.5-beta.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare": "husky install",
     "typecheck": "svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
     "lint": "prettier --plugin-search-dir . --check --write ./**/*.svelte  ./**/*.ts && eslint --fix --quiet --ext .ts,.svelte src"

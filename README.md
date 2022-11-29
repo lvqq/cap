@@ -51,12 +51,9 @@ Use `vite` to build project using `Vue3` and `TypeScript`
 Use `vite` to build project using `Svelte3` and `TypeScript`
 
 # Development
-Install with `--ignore-scripts` option or it will fail
+First run install
 ```bash
-pnpm install --ignore-scripts
-
-# Or
-pnpm run install
+pnpm install
 ```
 
 Link cli after build
@@ -86,7 +83,7 @@ npm run publish --filter=<pkg>
 
 ## beta
 ```bash
-npm run publish --filter=<pkg> --tag=<tag>
+npm run publish:beta --filter=<pkg>
 ```
 
 # License
