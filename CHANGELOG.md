@@ -1,3 +1,27 @@
+# 0.4.0 (2022-12-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v1 ([#9](https://github.com/lvqq/cap/issues/9)) ([6fe3db4](https://github.com/lvqq/cap/commit/6fe3db444c8abe2a3fbeb3aca586b5fb576a8179))
+* **deps:** update dependency chalk to v5.1.2 ([#7](https://github.com/lvqq/cap/issues/7)) ([99d5e89](https://github.com/lvqq/cap/commit/99d5e896228036a5c83a22282bf462c4f8da09f6))
+* **deps:** update dependency inquirer to v9.1.4 ([09830a6](https://github.com/lvqq/cap/commit/09830a698574b2f150b3c1d2b815fe3c7f9c67a3))
+* migrate husky install from template to create-cap setup ([92f7331](https://github.com/lvqq/cap/commit/92f73310c46772b55665424ed66c18009fdbd492))
+* prettier in template-svelte-typescript doesn't work ([b962ba7](https://github.com/lvqq/cap/commit/b962ba704587aaf6ee2df36c76b629ff38e7a05c))
+
+
+### Features
+
+* add beta option to specifiy template with beta tag ([a6539b3](https://github.com/lvqq/cap/commit/a6539b32c23c4751b59c79e3fc498604f7954d60))
+* rename package name ([1be3fa9](https://github.com/lvqq/cap/commit/1be3fa9036601f7daa65d5b0861618c6a75ad849))
+
+
+### BREAKING CHANGES
+
+* @tooktik/create-cap is renamed to create-cap
+
+
+
 ## 0.3.3 (2022-11-18)
 
 

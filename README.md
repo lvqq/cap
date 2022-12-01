@@ -24,7 +24,8 @@ yarn create cap my-cap-app --template react-ts
 # pnpm
 pnpm create cap my-cap-app --template react-ts
 ```
-supported templates: `ts`, `react-ts`, `vue-ts`, `svelte-ts`
+
+Supported templates: `ts`, `react-ts`, `vue-ts`, `svelte-ts`
 
 ## Common configurations
 - `TypeScript`
