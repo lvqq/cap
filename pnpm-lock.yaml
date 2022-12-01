@@ -856,11 +856,11 @@ packages:
   /@types/lodash.merge/4.6.7:
     resolution: {integrity: sha512-OwxUJ9E50gw3LnAefSHJPHaBLGEKmQBQ7CZe/xflHkyy/wH2zVyEIAKReHvVrrn7zKdF58p16We9kMfh7v0RRQ==}
     dependencies:
-      '@types/lodash': 4.14.190
+      '@types/lodash': 4.14.191
     dev: true
 
-  /@types/lodash/4.14.190:
-    resolution: {integrity: sha512-5iJ3FBJBvQHQ8sFhEhJfjUP+G+LalhavTkYyrAYqz5MEJG+erSv0k9KJLb6q7++17Lafk1scaTIFXcMJlwK8Mw==}
+  /@types/lodash/4.14.191:
+    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
     dev: true
 
   /@types/minimist/1.2.2:
@@ -6432,7 +6432,7 @@ packages:
       js-yaml: registry.npmmirror.com/js-yaml/4.1.0
       json-stable-stringify-without-jsonify: registry.npmmirror.com/json-stable-stringify-without-jsonify/1.0.1
       levn: registry.npmmirror.com/levn/0.4.1
-      lodash.merge: registry.npmmirror.com/lodash.merge/4.6.2
+      lodash.merge: 4.6.2
       minimatch: registry.npmmirror.com/minimatch/3.1.2
       natural-compare: registry.npmmirror.com/natural-compare/1.4.0
       optionator: registry.npmmirror.com/optionator/0.9.1
@@ -7078,12 +7078,6 @@ packages:
       rxjs: registry.npmmirror.com/rxjs/7.5.6
       through: registry.npmmirror.com/through/2.3.8
       wrap-ansi: registry.npmmirror.com/wrap-ansi/7.0.0
-    dev: true
-
-  registry.npmmirror.com/lodash.merge/4.6.2:
-    resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==, registry: http://registry.npm.org/, tarball: https://registry.npmmirror.com/lodash.merge/-/lodash.merge-4.6.2.tgz}
-    name: lodash.merge
-    version: 4.6.2
     dev: true
 
   registry.npmmirror.com/lodash.sortby/4.7.0:

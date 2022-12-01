@@ -1,39 +1,39 @@
 # cap
 
-[![npm version](https://img.shields.io/npm/v/@tooltik/create-cap.svg)](https://www.npmjs.com/package/@tooltik/create-cap) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lvqq/cap/CI) [![Coverage Status](https://coveralls.io/repos/github/lvqq/cap/badge.svg?branch=main)](https://coveralls.io/github/lvqq/cap?branch=main) ![node-current (scoped)](https://img.shields.io/node/v/@tooltik/create-cap) ![GitHub](https://img.shields.io/github/license/lvqq/cap)
+[![npm version](https://img.shields.io/npm/v/create-cap.svg)](https://www.npmjs.com/package/create-cap) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lvqq/cap/CI) [![Coverage Status](https://coveralls.io/repos/github/lvqq/cap/badge.svg?branch=main)](https://coveralls.io/github/lvqq/cap?branch=main) ![node-current (scoped)](https://img.shields.io/node/v/create-cap) ![GitHub](https://img.shields.io/github/license/lvqq/cap)
 
 cap means **create awesome project**, it has some common engineering configurations built in. You can create a project with one line of command.
 
 ## Usage
 ```bash
 # npm
-npm create @tooltik/cap my-cap-app
+npm create cap my-cap-app
 # yarn
-yarn create @tooltik/cap my-cap-app
+yarn create cap my-cap-app
 # pnpm
-pnpm create @tooltik/cap my-cap-app
+pnpm create cap my-cap-app
 ```
 
 You can also directly specify the template:
 
 ```bash
 # npm
-npm create @tooltik/cap my-cap-app --template ts
+npm create cap my-cap-app --template react-ts
 # yarn
-yarn create @tooltik/cap my-cap-app --template ts
+yarn create cap my-cap-app --template react-ts
 # pnpm
-pnpm create @tooltik/cap my-cap-app --template ts
+pnpm create cap my-cap-app --template react-ts
 ```
 supported templates: `ts`, `react-ts`, `vue-ts`, `svelte-ts`
 
 ## Common configurations
 - `TypeScript`
-- `eslint`
-- `prettier`
-- `husky`
-- `lint-staged`
-- `vitest`
-- `github workflow`
+- `ESLint`
+- `Prettier`
+- `Husky`
+- `Lint-Staged`
+- `Vitest`
+- `Github Workflow`
 
 ## Templates
 We have the following templates:
