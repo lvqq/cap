@@ -37,12 +37,14 @@ importers:
   packages/create-cap:
     specifiers:
       '@types/inquirer': ^9.0.2
+      '@types/lodash.merge': ^4.6.7
       '@types/node': ^18.7.16
       '@types/tar': ^6.1.2
       axios: ^1.0.0
       chalk: 5.1.2
       commander: ^9.4.0
       inquirer: 9.1.4
+      lodash.merge: ^4.6.2
       ora: 6.1.2
       rimraf: ^3.0.2
       tar: ^6.1.11
@@ -53,10 +55,12 @@ importers:
       chalk: 5.1.2
       commander: 9.4.0
       inquirer: 9.1.4
+      lodash.merge: 4.6.2
       ora: 6.1.2
       tar: 6.1.11
     devDependencies:
       '@types/inquirer': 9.0.2
+      '@types/lodash.merge': 4.6.7
       '@types/node': 18.7.16
       '@types/tar': 6.1.2
       rimraf: 3.0.2
@@ -847,6 +851,16 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/lodash.merge/4.6.7:
+    resolution: {integrity: sha512-OwxUJ9E50gw3LnAefSHJPHaBLGEKmQBQ7CZe/xflHkyy/wH2zVyEIAKReHvVrrn7zKdF58p16We9kMfh7v0RRQ==}
+    dependencies:
+      '@types/lodash': 4.14.190
+    dev: true
+
+  /@types/lodash/4.14.190:
+    resolution: {integrity: sha512-5iJ3FBJBvQHQ8sFhEhJfjUP+G+LalhavTkYyrAYqz5MEJG+erSv0k9KJLb6q7++17Lafk1scaTIFXcMJlwK8Mw==}
     dev: true
 
   /@types/minimist/1.2.2:
@@ -3720,7 +3734,6 @@ packages:
 
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
-    dev: true
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}

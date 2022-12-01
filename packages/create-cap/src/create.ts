@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import ora from 'ora';
 import { TemplatesNameMap } from './constants';
 import type { TemplatesNameKey } from './constants';
-import { downloadFromNpmToDir, Log, cp, setScript } from './utils';
+import { downloadFromNpmToDir, Log, cp, setJsonFileFromDir } from './utils';
 import { questionTemplate } from './inquirer';
 
 // eslint-disable-next-line no-underscore-dangle
@@ -44,17 +44,14 @@ export const create = async (
     if (fs.existsSync(pkgPath)) {
       // cp files under public directory
       await cp(path.resolve(__dirname, '../public'), dir);
-      // handle prepare husky script
-      setScript({ key: 'prepare', value: 'husky install' }, { cwd: dir });
-      // handle package.json name/version
-      const pkgText = await fs.promises.readFile(pkgPath);
-      await fs.promises.writeFile(
-        pkgPath,
-        pkgText
-          .toString()
-          .replace(/"name": "(.*)"/g, ($1, $2) => $1.replace($2, name))
-          .replace(/"version": "(.*)"/g, ($1, $2) => $1.replace($2, '0.0.0'))
-      );
+      // set name, version and prepare script in package.json
+      await setJsonFileFromDir(pkgPath, {
+        name,
+        version: '0.0.0',
+        scripts: {
+          prepare: 'husky install',
+        },
+      });
       spinner.succeed(chalk.greenBright(`Install template success. Try the following steps:`));
       Log.info(`\ncd ${name} \nnpm install`);
     } else {

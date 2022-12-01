@@ -5,6 +5,7 @@ import { existsSync, promises as fs, constants } from 'node:fs';
 import path from 'node:path';
 import axios from 'axios';
 import tar from 'tar';
+import merge from 'lodash.merge';
 
 export class Log {
   static success(...message: string[]) {
@@ -102,16 +103,20 @@ export const cp = async (source: string, target: string): Promise<void> => {
   }
 };
 
-export const setScript = (
-  scripts: { key: string; value: string },
-  options?: { cwd?: string | URL }
-): void => {
-  const result = spawnSync('npm', ['pkg', 'set', `scripts.${scripts.key}="${scripts.value}"`], {
-    stdio: 'pipe',
-    shell: isWin,
-    cwd: options?.cwd,
-  });
-  if (result.status || !result.stdout) {
-    throw new Error(`Set scripts ${scripts.key} failed`);
+export const JSONParse = (str: string | null) => {
+  try {
+    return str ? JSON.parse(str) : str;
+  } catch (e) {
+    return str;
   }
+};
+
+export const setJsonFileFromDir = async (
+  dir: string,
+  configs: Record<string, unknown>
+): Promise<void> => {
+  const file = await fs.readFile(dir, 'utf-8');
+  const json = JSONParse(file.toString());
+  const result = merge(json, configs);
+  await fs.writeFile(dir, JSON.stringify(result, null, 2));
 };
