@@ -21,7 +21,7 @@
     "lint": "eslint --fix --quiet --ext .ts src"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=v18.12.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.36.2",
