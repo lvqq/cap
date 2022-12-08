@@ -36,7 +36,7 @@ importers:
 
   packages/create-cap:
     specifiers:
-      '@types/inquirer': ^9.0.2
+      '@types/inquirer': ^9.0.3
       '@types/lodash.merge': ^4.6.7
       '@types/node': ^18.7.16
       '@types/tar': ^6.1.2
@@ -59,7 +59,7 @@ importers:
       ora: 6.1.2
       tar: 6.1.11
     devDependencies:
-      '@types/inquirer': 9.0.2
+      '@types/inquirer': 9.0.3
       '@types/lodash.merge': 4.6.7
       '@types/node': 18.7.16
       '@types/tar': 6.1.2
@@ -834,11 +834,11 @@ packages:
     resolution: {integrity: sha512-hC7OMnszpxhZPduX+m+nrx+uFoLkWOMiR4oa/AZF3MuSETYTZmFfJAHqZEM8MVlvfG7BEUcgvtwoCTxBp6hm3g==}
     dev: true
 
-  /@types/inquirer/9.0.2:
-    resolution: {integrity: sha512-MQc3adiIh/rDxLkjnvL03rSvuHg+/dKif4dn/MRsnE+oU1bAdyuDbW0w+ewR1M/M/u/Z0YAbw7NZYCpgQ5SW8A==}
+  /@types/inquirer/9.0.3:
+    resolution: {integrity: sha512-CzNkWqQftcmk2jaCWdBTf9Sm7xSw4rkI1zpU/Udw3HX5//adEZUIm9STtoRP1qgWj0CWQtJ9UTvqmO2NNjhMJw==}
     dependencies:
       '@types/through': 0.0.30
-      rxjs: 7.5.6
+      rxjs: 7.5.7
     dev: true
 
   /@types/istanbul-lib-coverage/2.0.4:
@@ -4608,12 +4608,6 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /rxjs/7.5.6:
-    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
-    dependencies:
-      tslib: 2.4.0
-    dev: true
-
   /rxjs/7.5.7:
     resolution: {integrity: sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==}
     dependencies:
@@ -7075,7 +7069,7 @@ packages:
       log-update: registry.npmmirror.com/log-update/4.0.0
       p-map: registry.npmmirror.com/p-map/4.0.0
       rfdc: registry.npmmirror.com/rfdc/1.3.0
-      rxjs: registry.npmmirror.com/rxjs/7.5.6
+      rxjs: 7.5.7
       through: registry.npmmirror.com/through/2.3.8
       wrap-ansi: registry.npmmirror.com/wrap-ansi/7.0.0
     dev: true
@@ -7423,14 +7417,6 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.1.6
-    dev: true
-
-  registry.npmmirror.com/rxjs/7.5.6:
-    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==, registry: http://registry.npm.org/, tarball: https://registry.npmmirror.com/rxjs/-/rxjs-7.5.6.tgz}
-    name: rxjs
-    version: 7.5.6
-    dependencies:
-      tslib: 2.4.0
     dev: true
 
   registry.npmmirror.com/semver/6.3.0:
