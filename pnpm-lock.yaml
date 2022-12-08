@@ -42,7 +42,7 @@ importers:
       '@types/tar': ^6.1.2
       axios: ^1.0.0
       chalk: 5.1.2
-      commander: ^9.4.0
+      commander: ^9.4.1
       inquirer: 9.1.4
       lodash.merge: ^4.6.2
       ora: 6.1.2
@@ -53,7 +53,7 @@ importers:
     dependencies:
       axios: 1.2.0
       chalk: 5.1.2
-      commander: 9.4.0
+      commander: 9.4.1
       inquirer: 9.1.4
       lodash.merge: 4.6.2
       ora: 6.1.2
@@ -1807,8 +1807,13 @@ packages:
     dependencies:
       delayed-stream: 1.0.0
 
-  /commander/9.4.0:
-    resolution: {integrity: sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==}
+  /commander/4.1.1:
+    resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
+    engines: {node: '>= 6'}
+    dev: true
+
+  /commander/9.4.1:
+    resolution: {integrity: sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==}
     engines: {node: ^12.20.0 || >=14}
 
   /compare-func/2.0.0:
@@ -3651,7 +3656,7 @@ packages:
     dependencies:
       cli-truncate: 3.1.0
       colorette: 2.0.19
-      commander: 9.4.0
+      commander: 9.4.1
       debug: 4.3.4
       execa: 6.1.0
       lilconfig: 2.0.5
@@ -6019,20 +6024,6 @@ packages:
     version: 2.0.19
     dev: true
 
-  registry.npmmirror.com/commander/4.1.1:
-    resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==, registry: http://registry.npm.org/, tarball: https://registry.npmmirror.com/commander/-/commander-4.1.1.tgz}
-    name: commander
-    version: 4.1.1
-    engines: {node: '>= 6'}
-    dev: true
-
-  registry.npmmirror.com/commander/9.4.0:
-    resolution: {integrity: sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==, registry: http://registry.npm.org/, tarball: https://registry.npmmirror.com/commander/-/commander-9.4.0.tgz}
-    name: commander
-    version: 9.4.0
-    engines: {node: ^12.20.0 || >=14}
-    dev: true
-
   registry.npmmirror.com/confusing-browser-globals/1.0.11:
     resolution: {integrity: sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==, registry: http://registry.npm.org/, tarball: https://registry.npmmirror.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz}
     name: confusing-browser-globals
@@ -7043,7 +7034,7 @@ packages:
     dependencies:
       cli-truncate: registry.npmmirror.com/cli-truncate/3.1.0
       colorette: registry.npmmirror.com/colorette/2.0.19
-      commander: registry.npmmirror.com/commander/9.4.0
+      commander: 9.4.1
       debug: registry.npmmirror.com/debug/4.3.4
       execa: registry.npmmirror.com/execa/6.1.0
       lilconfig: registry.npmmirror.com/lilconfig/2.0.5
@@ -7605,7 +7596,7 @@ packages:
     engines: {node: '>=8'}
     hasBin: true
     dependencies:
-      commander: registry.npmmirror.com/commander/4.1.1
+      commander: 4.1.1
       glob: registry.npmmirror.com/glob/7.1.6
       lines-and-columns: registry.npmmirror.com/lines-and-columns/1.2.4
       mz: registry.npmmirror.com/mz/2.7.0
