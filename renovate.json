@@ -3,5 +3,17 @@
   "extends": [
     "config:base"
   ],
-  "rangeStrategy": "bump"
+  "packageRules": [
+    {
+      "description": "Disable node/pnpm version update in engines",
+      "matchPackageNames": ["node", "pnpm"],
+      "matchDepTypes": ["engines"],
+      "enabled": false
+    },
+    {
+      "description": "Auto update dependencies in all templates",
+      "matchPaths": ["./packages/template-*/**"],
+      "rangeStrategy": "bump"
+    }
+  ]
 }
