@@ -13,7 +13,7 @@ importers:
       eslint-config-prettier: ^8.5.0
       eslint-plugin-import: ^2.26.0
       eslint-plugin-prettier: ^4.2.1
-      husky: ^8.0.1
+      husky: ^8.0.2
       lint-staged: ^13.0.3
       prettier: ^2.7.1
       typescript: ^4.8.3
@@ -28,7 +28,7 @@ importers:
       eslint-config-prettier: registry.npmmirror.com/eslint-config-prettier/8.5.0_eslint@8.23.0
       eslint-plugin-import: registry.npmmirror.com/eslint-plugin-import/2.26.0_iepzrjnvahcxaf6zc7cutko6om
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_tgumt6uwl2md3n6uqnggd6wvce
-      husky: registry.npmmirror.com/husky/8.0.1
+      husky: 8.0.2
       lint-staged: registry.npmmirror.com/lint-staged/13.0.3
       prettier: registry.npmmirror.com/prettier/2.7.1
       typescript: registry.npmmirror.com/typescript/4.8.3
@@ -82,7 +82,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-react: ^7.31.8
       eslint-plugin-react-hooks: ^4.6.0
-      husky: ^8.0.1
+      husky: ^8.0.2
       jsdom: ^20.0.0
       lint-staged: ^13.0.3
       prettier: ^2.7.1
@@ -108,7 +108,7 @@ importers:
       eslint-plugin-prettier: 4.2.1_tgumt6uwl2md3n6uqnggd6wvce
       eslint-plugin-react: 7.31.8_eslint@8.23.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.23.0
-      husky: 8.0.1
+      husky: 8.0.2
       jsdom: 20.0.0
       lint-staged: 13.0.3
       prettier: 2.7.1
@@ -129,7 +129,7 @@ importers:
       eslint-plugin-import: ^2.26.0
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-svelte3: ^4.0.0
-      husky: ^8.0.1
+      husky: ^8.0.2
       jsdom: ^20.0.0
       lint-staged: ^13.0.3
       prettier: ^2.7.1
@@ -153,7 +153,7 @@ importers:
       eslint-plugin-import: 2.26.0_iepzrjnvahcxaf6zc7cutko6om
       eslint-plugin-prettier: 4.2.1_tgumt6uwl2md3n6uqnggd6wvce
       eslint-plugin-svelte3: 4.0.0_jtvgu4usxe4xoavzb5jpyaoyje
-      husky: 8.0.1
+      husky: 8.0.2
       jsdom: 20.0.0
       lint-staged: 13.0.3
       prettier: 2.7.1
@@ -175,7 +175,7 @@ importers:
       eslint-config-prettier: ^8.5.0
       eslint-plugin-import: ^2.26.0
       eslint-plugin-prettier: ^4.2.1
-      husky: ^8.0.1
+      husky: ^8.0.2
       lint-staged: ^13.0.3
       prettier: ^2.7.1
       rimraf: ^3.0.2
@@ -190,7 +190,7 @@ importers:
       eslint-config-prettier: registry.npmmirror.com/eslint-config-prettier/8.5.0_eslint@8.23.0
       eslint-plugin-import: registry.npmmirror.com/eslint-plugin-import/2.26.0_iepzrjnvahcxaf6zc7cutko6om
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_tgumt6uwl2md3n6uqnggd6wvce
-      husky: registry.npmmirror.com/husky/8.0.1
+      husky: 8.0.2
       lint-staged: registry.npmmirror.com/lint-staged/13.0.3
       prettier: registry.npmmirror.com/prettier/2.7.1
       rimraf: registry.npmmirror.com/rimraf/3.0.2
@@ -207,7 +207,7 @@ importers:
       '@vitejs/plugin-vue-jsx': ^2.0.1
       eslint: ^8.23.0
       eslint-plugin-vue: ^9.5.1
-      husky: ^8.0.1
+      husky: ^8.0.2
       jsdom: ^20.0.0
       lint-staged: ^13.0.3
       prettier: ^2.7.1
@@ -227,7 +227,7 @@ importers:
       '@vitejs/plugin-vue-jsx': 2.0.1_vite@3.2.5+vue@3.2.39
       eslint: 8.23.0
       eslint-plugin-vue: 9.5.1_eslint@8.23.0
-      husky: 8.0.1
+      husky: 8.0.2
       jsdom: 20.0.0
       lint-staged: 13.0.3
       prettier: 2.7.1
@@ -3438,8 +3438,8 @@ packages:
     engines: {node: '>=12.20.0'}
     dev: true
 
-  /husky/8.0.1:
-    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+  /husky/8.0.2:
+    resolution: {integrity: sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -6962,14 +6962,6 @@ packages:
     name: human-signals
     version: 3.0.1
     engines: {node: '>=12.20.0'}
-    dev: true
-
-  registry.npmmirror.com/husky/8.0.1:
-    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==, registry: http://registry.npm.org/, tarball: https://registry.npmmirror.com/husky/-/husky-8.0.1.tgz}
-    name: husky
-    version: 8.0.1
-    engines: {node: '>=14'}
-    hasBin: true
     dev: true
 
   registry.npmmirror.com/ignore/5.2.0:
