@@ -4,17 +4,21 @@
     "config:base"
   ],
   "rangeStrategy": "bump",
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "packages/create-cap/**"
+  ],
   "packageRules": [
     {
       "description": "Disable node/pnpm version update in engines",
       "matchPackageNames": ["node", "pnpm"],
       "matchDepTypes": ["engines"],
       "enabled": false
-    },
-    {
-      "description": "Disable auto update dependencies in create-cap",
-      "matchPaths": ["packages/create-cap/**"],
-      "enabled": false
     }
+  ],
+  "schedule": [
+    "on Friday",
+    "every weekend"
   ]
 }
