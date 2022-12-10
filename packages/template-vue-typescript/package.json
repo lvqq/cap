@@ -20,7 +20,7 @@
     "@vitejs/plugin-vue": "^3.1.0",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
     "eslint": "^8.23.0",
-    "eslint-plugin-vue": "^9.5.1",
+    "eslint-plugin-vue": "^9.8.0",
     "husky": "^8.0.2",
     "jsdom": "^20.0.0",
     "lint-staged": "^13.0.3",

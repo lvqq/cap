@@ -206,7 +206,7 @@ importers:
       '@vitejs/plugin-vue': ^3.1.0
       '@vitejs/plugin-vue-jsx': ^2.0.1
       eslint: ^8.23.0
-      eslint-plugin-vue: ^9.5.1
+      eslint-plugin-vue: ^9.8.0
       husky: ^8.0.2
       jsdom: ^20.0.0
       lint-staged: ^13.0.3
@@ -226,7 +226,7 @@ importers:
       '@vitejs/plugin-vue': 3.1.0_vite@3.2.5+vue@3.2.39
       '@vitejs/plugin-vue-jsx': 2.0.1_vite@3.2.5+vue@3.2.39
       eslint: 8.23.0
-      eslint-plugin-vue: 9.5.1_eslint@8.23.0
+      eslint-plugin-vue: 9.8.0_eslint@8.23.0
       husky: 8.0.2
       jsdom: 20.0.0
       lint-staged: 13.0.3
@@ -2849,8 +2849,8 @@ packages:
       svelte: 3.50.1
     dev: true
 
-  /eslint-plugin-vue/9.5.1_eslint@8.23.0:
-    resolution: {integrity: sha512-Y0sL2RY7Xc9S8kNih9lbwHIDmewUg9bfas6WSzsOWRgDXhIHKxRBZYNAnVcXBFfE+bMWHUA5GLChl7TcTYUI8w==}
+  /eslint-plugin-vue/9.8.0_eslint@8.23.0:
+    resolution: {integrity: sha512-E/AXwcTzunyzM83C2QqDHxepMzvI2y6x+mmeYHbVDQlKFqmKYvRrhaVixEeeG27uI44p9oKDFiyCRw4XxgtfHA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
