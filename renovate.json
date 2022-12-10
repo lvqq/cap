@@ -19,7 +19,8 @@
     {
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      "automerge": true,
+      "platformAutomerge": true
     }
   ],
   "schedule": [
