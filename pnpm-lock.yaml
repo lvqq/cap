@@ -137,7 +137,7 @@ importers:
       svelte: ^3.49.0
       svelte-check: ^2.8.1
       svelte-preprocess: ^4.10.7
-      tslib: ^2.4.0
+      tslib: ^2.4.1
       typescript: ^4.6.4
       vite: ^3.2.5
       vitest: ^0.25.6
@@ -161,7 +161,7 @@ importers:
       svelte: 3.50.1
       svelte-check: 2.9.0_svelte@3.50.1
       svelte-preprocess: 4.10.7_iprco5tylfmvffqgrvqxc46njy
-      tslib: 2.4.0
+      tslib: 2.4.1
       typescript: 4.8.3
       vite: 3.2.5
       vitest: 0.25.6_jsdom@20.0.0
@@ -4812,13 +4812,13 @@ packages:
   /rxjs/7.5.6:
     resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
     dependencies:
-      tslib: 2.4.0
+      tslib: 2.4.1
     dev: true
 
   /rxjs/7.5.7:
     resolution: {integrity: sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==}
     dependencies:
-      tslib: 2.4.0
+      tslib: 2.4.1
 
   /sade/1.8.1:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
@@ -5335,8 +5335,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib/2.4.0:
-    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+  /tslib/2.4.1:
+    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
 
   /tsup/6.5.0_typescript@4.8.3:
     resolution: {integrity: sha512-36u82r7rYqRHFkD15R20Cd4ercPkbYmuvRkz3Q1LCm5BsiFNUgpo36zbjVhCOgvjyxNBWNKHsaD5Rl8SykfzNA==}
@@ -7587,7 +7587,7 @@ packages:
     name: rxjs
     version: 7.5.6
     dependencies:
-      tslib: 2.4.0
+      tslib: 2.4.1
     dev: true
 
   registry.npmmirror.com/semver/6.3.0:
