@@ -27,7 +27,7 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "prettier-plugin-svelte": "^2.9.0",
-    "svelte": "^3.49.0",
+    "svelte": "^3.54.0",
     "svelte-check": "^2.10.2",
     "svelte-preprocess": "^4.10.7",
     "tslib": "^2.4.1",
