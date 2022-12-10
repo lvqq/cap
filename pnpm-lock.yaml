@@ -119,7 +119,7 @@ importers:
   packages/template-svelte-typescript:
     specifiers:
       '@sveltejs/vite-plugin-svelte': ^1.4.0
-      '@testing-library/svelte': ^3.2.1
+      '@testing-library/svelte': ^3.2.2
       '@tsconfig/svelte': ^3.0.0
       '@typescript-eslint/eslint-plugin': ^5.46.0
       '@typescript-eslint/parser': ^5.46.0
@@ -143,7 +143,7 @@ importers:
       vitest: ^0.25.6
     devDependencies:
       '@sveltejs/vite-plugin-svelte': 1.4.0_svelte@3.50.1+vite@3.2.5
-      '@testing-library/svelte': 3.2.1_svelte@3.50.1
+      '@testing-library/svelte': 3.2.2_svelte@3.50.1
       '@tsconfig/svelte': 3.0.0
       '@typescript-eslint/eslint-plugin': 5.46.0_bxxkyuf6zk4phwvl3kkha32csy
       '@typescript-eslint/parser': 5.46.0_itqs5654cmlnjraw6gjzqacppi
@@ -793,8 +793,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: true
 
-  /@testing-library/svelte/3.2.1_svelte@3.50.1:
-    resolution: {integrity: sha512-qP5nMAx78zt+a3y9Sws9BNQYP30cOQ/LXDYuAj7wNtw86b7AtB7TFAz6/Av9hFsW3IJHPBBIGff6utVNyq+F1g==}
+  /@testing-library/svelte/3.2.2_svelte@3.50.1:
+    resolution: {integrity: sha512-IKwZgqbekC3LpoRhSwhd0JswRGxKdAGkf39UiDXTywK61YyLXbCYoR831e/UUC6EeNW4hiHPY+2WuovxOgI5sw==}
     engines: {node: '>= 10'}
     peerDependencies:
       svelte: 3.x
