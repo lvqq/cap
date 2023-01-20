@@ -11,7 +11,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.6.0
-      eslint-plugin-import: ^2.27.4
+      eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       husky: ^8.0.3
       lint-staged: ^13.1.0
@@ -24,9 +24,9 @@ importers:
       '@vitest/coverage-c8': 0.27.1
       conventional-changelog-cli: 2.2.2
       eslint: 8.32.0
-      eslint-config-airbnb-base: registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_yx6e7nyocrpjlofwba2pq5a2ny
+      eslint-config-airbnb-base: registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_ps7hf4l2dvbuxvtusmrfhmzsba
       eslint-config-prettier: 8.6.0_eslint@8.32.0
-      eslint-plugin-import: 2.27.4_d7sd2krenkbelnt3n7nqqoxduu
+      eslint-plugin-import: 2.27.5_d7sd2krenkbelnt3n7nqqoxduu
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_cn4lalcyadplruoxa5mhp7j3dq
       husky: 8.0.3
       lint-staged: 13.1.0
@@ -78,7 +78,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.6.0
-      eslint-plugin-import: ^2.27.4
+      eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-react: ^7.32.0
       eslint-plugin-react-hooks: ^4.6.0
@@ -102,9 +102,9 @@ importers:
       '@typescript-eslint/parser': 5.48.1_7uibuqfxkfaozanbtbziikiqje
       '@vitejs/plugin-react': 2.2.0_vite@3.2.5
       eslint: 8.32.0
-      eslint-config-airbnb-base: 15.0.0_yx6e7nyocrpjlofwba2pq5a2ny
+      eslint-config-airbnb-base: 15.0.0_ps7hf4l2dvbuxvtusmrfhmzsba
       eslint-config-prettier: 8.6.0_eslint@8.32.0
-      eslint-plugin-import: 2.27.4_d7sd2krenkbelnt3n7nqqoxduu
+      eslint-plugin-import: 2.27.5_d7sd2krenkbelnt3n7nqqoxduu
       eslint-plugin-prettier: 4.2.1_cn4lalcyadplruoxa5mhp7j3dq
       eslint-plugin-react: 7.32.0_eslint@8.32.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.32.0
@@ -126,7 +126,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.6.0
-      eslint-plugin-import: ^2.27.4
+      eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-svelte3: ^4.0.0
       husky: ^8.0.3
@@ -148,9 +148,9 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.48.1_oomjohfipuyaxs2zyomcx4f5by
       '@typescript-eslint/parser': 5.48.1_7uibuqfxkfaozanbtbziikiqje
       eslint: 8.32.0
-      eslint-config-airbnb-base: 15.0.0_yx6e7nyocrpjlofwba2pq5a2ny
+      eslint-config-airbnb-base: 15.0.0_ps7hf4l2dvbuxvtusmrfhmzsba
       eslint-config-prettier: 8.6.0_eslint@8.32.0
-      eslint-plugin-import: 2.27.4_d7sd2krenkbelnt3n7nqqoxduu
+      eslint-plugin-import: 2.27.5_d7sd2krenkbelnt3n7nqqoxduu
       eslint-plugin-prettier: 4.2.1_cn4lalcyadplruoxa5mhp7j3dq
       eslint-plugin-svelte3: 4.0.0_tmo5zkisvhu6htudosk5k7m6pu
       husky: 8.0.3
@@ -173,7 +173,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.6.0
-      eslint-plugin-import: ^2.27.4
+      eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       husky: ^8.0.3
       lint-staged: ^13.1.0
@@ -186,9 +186,9 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.48.1_oomjohfipuyaxs2zyomcx4f5by
       '@typescript-eslint/parser': 5.48.1_7uibuqfxkfaozanbtbziikiqje
       eslint: 8.32.0
-      eslint-config-airbnb-base: registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_yx6e7nyocrpjlofwba2pq5a2ny
+      eslint-config-airbnb-base: registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_ps7hf4l2dvbuxvtusmrfhmzsba
       eslint-config-prettier: 8.6.0_eslint@8.32.0
-      eslint-plugin-import: 2.27.4_d7sd2krenkbelnt3n7nqqoxduu
+      eslint-plugin-import: 2.27.5_d7sd2krenkbelnt3n7nqqoxduu
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_cn4lalcyadplruoxa5mhp7j3dq
       husky: 8.0.3
       lint-staged: 13.1.0
@@ -2635,7 +2635,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-airbnb-base/15.0.0_yx6e7nyocrpjlofwba2pq5a2ny:
+  /eslint-config-airbnb-base/15.0.0_ps7hf4l2dvbuxvtusmrfhmzsba:
     resolution: {integrity: sha512-xaX3z4ZZIcFLvh2oUNvcX5oEofXda7giYmuplVxoOg5A7EXJMrUyqRgR+mhDhPK8LZ4PttFOBvCYDbX3sUoUig==}
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
@@ -2644,7 +2644,7 @@ packages:
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 8.32.0
-      eslint-plugin-import: 2.27.4_d7sd2krenkbelnt3n7nqqoxduu
+      eslint-plugin-import: 2.27.5_d7sd2krenkbelnt3n7nqqoxduu
       object.assign: 4.1.4
       object.entries: 1.1.5
       semver: 6.3.0
@@ -2698,8 +2698,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-import/2.27.4_d7sd2krenkbelnt3n7nqqoxduu:
-    resolution: {integrity: sha512-Z1jVt1EGKia1X9CnBCkpAOhWy8FgQ7OmJ/IblEkT82yrFU/xJaxwujaTzLWqigewwynRQ9mmHfX9MtAfhxm0sA==}
+  /eslint-plugin-import/2.27.5_d7sd2krenkbelnt3n7nqqoxduu:
+    resolution: {integrity: sha512-LmEt3GVofgiGuiE+ORpnvP+kAm3h6MLZJ4Q5HCyHADofsb4VzXFsRiWj3c0OFiV+3DWFh0qg3v9gcPlfc3zRow==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -6093,7 +6093,7 @@ packages:
       esbuild-windows-arm64: 0.15.7
     dev: true
 
-  registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_yx6e7nyocrpjlofwba2pq5a2ny:
+  registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_ps7hf4l2dvbuxvtusmrfhmzsba:
     resolution: {integrity: sha512-xaX3z4ZZIcFLvh2oUNvcX5oEofXda7giYmuplVxoOg5A7EXJMrUyqRgR+mhDhPK8LZ4PttFOBvCYDbX3sUoUig==, registry: http://registry.npm.org/, tarball: https://registry.npmmirror.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-15.0.0.tgz}
     id: registry.npmmirror.com/eslint-config-airbnb-base/15.0.0
     name: eslint-config-airbnb-base
@@ -6105,7 +6105,7 @@ packages:
     dependencies:
       confusing-browser-globals: registry.npmmirror.com/confusing-browser-globals/1.0.11
       eslint: 8.32.0
-      eslint-plugin-import: 2.27.4_d7sd2krenkbelnt3n7nqqoxduu
+      eslint-plugin-import: 2.27.5_d7sd2krenkbelnt3n7nqqoxduu
       object.assign: registry.npmmirror.com/object.assign/4.1.4
       object.entries: registry.npmmirror.com/object.entries/1.1.5
       semver: registry.npmmirror.com/semver/6.3.0
