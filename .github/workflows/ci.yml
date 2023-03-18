@@ -76,7 +76,7 @@ jobs:
         run: pnpm install --ignore-scripts
 
       - name: Build
-        run: pnpm run build
+        run: pnpm --filter ./packages/create-cap run build
 
       - name: Link
         run: pnpm --dir ./packages/create-cap link --global
