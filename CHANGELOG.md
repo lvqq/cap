@@ -1,3 +1,18 @@
+# 0.5.0 (2023-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue to ^3.2.45 ([#24](https://github.com/lvqq/cap/issues/24)) ([2412e9f](https://github.com/lvqq/cap/commit/2412e9fd7a4b2dfa74b9c4753946cc2e5698b4a8))
+* **deps:** update dependency vue to ^3.2.47 ([#102](https://github.com/lvqq/cap/issues/102)) ([42038d8](https://github.com/lvqq/cap/commit/42038d8e2e95075b69a256d71f28eca24cd756f2))
+
+
+### Features
+
+* **template:** support astro-ts ([72d1830](https://github.com/lvqq/cap/commit/72d1830b6230ae6a9eb7afb889aa58eda3640956))
+
+
+
 # 0.4.0 (2022-12-01)
 
 

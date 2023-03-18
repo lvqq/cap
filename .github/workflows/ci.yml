@@ -58,7 +58,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-        node_version: [14, 16, 18]
+        node_version: [16, 18, 19]
       fail-fast: false
 
     steps:
@@ -76,7 +76,7 @@ jobs:
         run: pnpm install --ignore-scripts
 
       - name: Build
-        run: pnpm run build
+        run: pnpm --filter ./packages/create-cap run build
 
       - name: Link
         run: pnpm --dir ./packages/create-cap link --global

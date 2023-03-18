@@ -25,7 +25,7 @@ yarn create cap my-cap-app --template react-ts
 pnpm create cap my-cap-app --template react-ts
 ```
 
-Supported templates: `ts`, `react-ts`, `vue-ts`, `svelte-ts`
+Supported templates: `ts`, `react-ts`, `vue-ts`, `svelte-ts`, `astro-ts`
 
 ## Common configurations
 - `TypeScript`
@@ -50,6 +50,9 @@ Use `vite` to build project using `Vue3` and `TypeScript`
 
 ### svelte-ts
 Use `vite` to build project using `Svelte3` and `TypeScript`
+
+### astro-ts
+Project based on `astro` and `TypeScript`
 
 # Development
 First run install
