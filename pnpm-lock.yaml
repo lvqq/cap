@@ -14,7 +14,7 @@ importers:
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       husky: ^8.0.3
-      lint-staged: ^13.2.0
+      lint-staged: ^13.2.2
       prettier: ^2.8.8
       typescript: ^4.9.5
       vitest: ^0.29.8
@@ -29,7 +29,7 @@ importers:
       eslint-plugin-import: 2.27.5_a7er6olmtneep4uytpot6gt7wu
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_psxrdwsxkhqkuvbg6lit6pxboq
       husky: 8.0.3
-      lint-staged: 13.2.0
+      lint-staged: 13.2.2
       prettier: 2.8.8
       typescript: 4.9.5
       vitest: 0.29.8
@@ -79,7 +79,7 @@ importers:
       eslint-plugin-astro: ^0.26.0
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
-      lint-staged: ^13.2.0
+      lint-staged: ^13.2.2
       prettier: ^2.8.8
       prettier-plugin-astro: ^0.8.0
       typescript: ^4.9.5
@@ -96,7 +96,7 @@ importers:
       eslint-plugin-astro: 0.26.0_eslint@8.36.0
       eslint-plugin-import: 2.27.5_a7er6olmtneep4uytpot6gt7wu
       eslint-plugin-prettier: 4.2.1_psxrdwsxkhqkuvbg6lit6pxboq
-      lint-staged: 13.2.0
+      lint-staged: 13.2.2
       prettier: 2.8.8
       prettier-plugin-astro: 0.8.0
       typescript: 4.9.5
@@ -119,7 +119,7 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
       husky: ^8.0.3
       jsdom: ^21.1.1
-      lint-staged: ^13.2.0
+      lint-staged: ^13.2.2
       prettier: ^2.8.8
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -145,7 +145,7 @@ importers:
       eslint-plugin-react-hooks: 4.6.0_eslint@8.36.0
       husky: 8.0.3
       jsdom: 21.1.1
-      lint-staged: 13.2.0
+      lint-staged: 13.2.2
       prettier: 2.8.8
       typescript: 4.9.5
       vite: 3.2.5
@@ -166,7 +166,7 @@ importers:
       eslint-plugin-svelte3: ^4.0.0
       husky: ^8.0.3
       jsdom: ^21.1.1
-      lint-staged: ^13.2.0
+      lint-staged: ^13.2.2
       prettier: ^2.8.8
       prettier-plugin-svelte: ^2.9.0
       svelte: ^3.57.0
@@ -190,7 +190,7 @@ importers:
       eslint-plugin-svelte3: 4.0.0_wzem237sbvnwe7n34ytc5phasy
       husky: 8.0.3
       jsdom: 21.1.1
-      lint-staged: 13.2.0
+      lint-staged: 13.2.2
       prettier: 2.8.8
       prettier-plugin-svelte: 2.9.0_qni6kwxft67jt4w3znjkmw2qdy
       svelte: 3.57.0
@@ -211,7 +211,7 @@ importers:
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       husky: ^8.0.3
-      lint-staged: ^13.2.0
+      lint-staged: ^13.2.2
       prettier: ^2.8.8
       rimraf: ^4.4.0
       tsup: ^6.7.0
@@ -226,7 +226,7 @@ importers:
       eslint-plugin-import: 2.27.5_a7er6olmtneep4uytpot6gt7wu
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_psxrdwsxkhqkuvbg6lit6pxboq
       husky: 8.0.3
-      lint-staged: 13.2.0
+      lint-staged: 13.2.2
       prettier: 2.8.8
       rimraf: 4.4.0
       tsup: 6.7.0_typescript@4.9.5
@@ -244,7 +244,7 @@ importers:
       eslint-plugin-vue: ^9.9.0
       husky: ^8.0.3
       jsdom: ^21.1.1
-      lint-staged: ^13.2.0
+      lint-staged: ^13.2.2
       prettier: ^2.8.8
       typescript: ^4.9.5
       vite: ^3.2.5
@@ -264,7 +264,7 @@ importers:
       eslint-plugin-vue: 9.9.0_eslint@8.36.0
       husky: 8.0.3
       jsdom: 21.1.1
-      lint-staged: 13.2.0
+      lint-staged: 13.2.2
       prettier: 2.8.8
       typescript: 4.9.5
       vite: 3.2.5
@@ -4530,8 +4530,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/13.2.0:
-    resolution: {integrity: sha512-GbyK5iWinax5Dfw5obm2g2ccUiZXNGtAS4mCbJ0Lv4rq6iEtfBSjOYdcbOtAIFtM114t0vdpViDDetjVTSd8Vw==}
+  /lint-staged/13.2.2:
+    resolution: {integrity: sha512-71gSwXKy649VrSU09s10uAT0rWCcY3aewhMaHyl2N84oBk4Xs9HgxvUp3AYu+bNsK4NrOYYxvSgg7FyGJ+jGcA==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -4547,7 +4547,7 @@ packages:
       object-inspect: 1.12.3
       pidtree: 0.6.0
       string-argv: 0.3.1
-      yaml: 2.2.1
+      yaml: 2.2.2
     transitivePeerDependencies:
       - enquirer
       - supports-color
@@ -7789,8 +7789,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml/2.2.1:
-    resolution: {integrity: sha512-e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==}
+  /yaml/2.2.2:
+    resolution: {integrity: sha512-CBKFWExMn46Foo4cldiChEzn7S7SRV+wqiluAb6xmueD/fGyRHIhX8m14vVGgeFWjN540nKCNVj6P21eQjgTuA==}
     engines: {node: '>= 14'}
     dev: true
 
