@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "typecheck": "svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
-    "lint": "prettier --plugin-search-dir . --check --write ./**/*.svelte  ./**/*.ts && eslint --fix --quiet --ext .ts,.svelte src"
+    "lint": "prettier --plugin-search-dir . --check --write ./**/*.svelte  ./**/*.ts && eslint --quiet --ext .ts,.svelte ."
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.4.0",

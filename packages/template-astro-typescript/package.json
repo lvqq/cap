@@ -10,7 +10,7 @@
     "astro": "astro",
     "typecheck": "tsc",
     "test": "vitest run",
-    "lint": "eslint --fix --quiet --ext .ts,.astro src"
+    "lint": "eslint --quiet --ext .ts,.astro ."
   },
   "dependencies": {
     "astro": "^2.1.3"

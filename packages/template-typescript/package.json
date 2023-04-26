@@ -18,7 +18,7 @@
     "build": "rimraf dist && tsup --treeshake --minify",
     "typecheck": "tsc",
     "test": "vitest run",
-    "lint": "eslint --fix --quiet --ext .ts src"
+    "lint": "eslint --quiet --ext .ts ."
   },
   "engines": {
     "node": ">=12"

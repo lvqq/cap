@@ -18,7 +18,7 @@
     "test": "vitest run",
     "test:ci": "vitest run --coverage",
     "test:template": "pnpm -r --filter=./packages/template-* run test",
-    "lint": "eslint --fix --quiet packages/*/src/**/*.{ts,tsx}",
+    "lint": "pnpm -r run lint && eslint --quiet  ./packages/create-cap/**/*.ts",
     "changelog": "pnpm -r --filter=create-cap run changelog",
     "publish": "pnpm -r --filter=%npm_config_filter% exec npm publish",
     "publish:beta": "pnpm -r --filter=%npm_config_filter% exec npm publish --tag beta"

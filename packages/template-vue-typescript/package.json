@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "typecheck": "tsc",
     "test": "vitest run",
-    "lint": "eslint --fix --quiet --ext .ts,.vue src"
+    "lint": "eslint --quiet --ext .ts,.vue ."
   },
   "dependencies": {
     "vue": "^3.2.47"

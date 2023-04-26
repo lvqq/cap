@@ -6,8 +6,7 @@
   "rangeStrategy": "bump",
   "ignorePaths": [
     "**/node_modules/**",
-    "**/bower_components/**",
-    "packages/create-cap/**"
+    "**/bower_components/**"
   ],
   "packageRules": [
     {
@@ -17,7 +16,7 @@
       "enabled": false
     },
     {
-      "matchDepTypes": ["devDependencies", "packageManager"],
+      "matchDepTypes": ["dependencies", "devDependencies", "packageManager"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
       "platformAutomerge": true
