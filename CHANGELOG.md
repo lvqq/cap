@@ -1,3 +1,18 @@
+## 0.5.1 (2023-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to ^2.3.1 ([#151](https://github.com/lvqq/cap/issues/151)) ([77186a4](https://github.com/lvqq/cap/commit/77186a45161a77d1ecd7a2e41d771d1d3ca60ebf))
+* **deps:** update dependency axios to ^1.3.6 ([#130](https://github.com/lvqq/cap/issues/130)) ([8d8e96f](https://github.com/lvqq/cap/commit/8d8e96f946636b7e4d002fb057f8d3fd91cacfca))
+* **deps:** update dependency chalk to v5.2.0 ([#131](https://github.com/lvqq/cap/issues/131)) ([56720eb](https://github.com/lvqq/cap/commit/56720eb09ed11783d701784589d777d3b7f3c395))
+* **deps:** update dependency commander to ^9.5.0 ([#133](https://github.com/lvqq/cap/issues/133)) ([f602b76](https://github.com/lvqq/cap/commit/f602b764612ac7e31307e944721ce218893b3c23))
+* **deps:** update dependency inquirer to v9.2.0 ([#134](https://github.com/lvqq/cap/issues/134)) ([32d0012](https://github.com/lvqq/cap/commit/32d0012751b8100722c8645fa27449d64a2318f2))
+* **deps:** update dependency ora to v6.3.0 ([#135](https://github.com/lvqq/cap/issues/135)) ([bd16fd7](https://github.com/lvqq/cap/commit/bd16fd7dcc5761617f0e8cdb2f270a2dd7e59bd4))
+* **deps:** update dependency tar to ^6.1.13 ([#132](https://github.com/lvqq/cap/issues/132)) ([029d2c0](https://github.com/lvqq/cap/commit/029d2c0ad6f1f1dce3285ddf699ea4505941e5ac))
+
+
+
 # 0.5.0 (2023-03-18)
 
 
