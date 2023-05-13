@@ -81,7 +81,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       lint-staged: ^13.2.2
       prettier: ^2.8.8
-      prettier-plugin-astro: ^0.8.0
+      prettier-plugin-astro: ^0.8.1
       typescript: ^4.9.5
       vitest: ^0.30.1
     dependencies:
@@ -98,7 +98,7 @@ importers:
       eslint-plugin-prettier: 4.2.1_5pokp25ua6t5ubushhw3tqituq
       lint-staged: 13.2.2
       prettier: 2.8.8
-      prettier-plugin-astro: 0.8.0
+      prettier-plugin-astro: 0.8.1
       typescript: 4.9.5
       vitest: 0.30.1
 
@@ -291,7 +291,6 @@ packages:
 
   /@astrojs/compiler/1.3.2:
     resolution: {integrity: sha512-W/2Mdsq75ruK31dPVlXLdvAoknYDcm6+zXiFToSzQWI7wZqqR+51XTFgx90ojYbefk7z4VOJSVtZBz2pA82F5A==}
-    dev: false
 
   /@astrojs/language-server/0.28.3:
     resolution: {integrity: sha512-fPovAX/X46eE2w03jNRMpQ7W9m2mAvNt4Ay65lD9wl1Z5vIQYxlg7Enp9qP225muTr4jSVB5QiLumFJmZMAaVA==}
@@ -5906,11 +5905,11 @@ packages:
       synckit: 0.8.5
     dev: false
 
-  /prettier-plugin-astro/0.8.0:
-    resolution: {integrity: sha512-kt9wk33J7HvFGwFaHb8piwy4zbUmabC8Nu+qCw493jhe96YkpjscqGBPy4nJ9TPy9pd7+kEx1zM81rp+MIdrXg==}
+  /prettier-plugin-astro/0.8.1:
+    resolution: {integrity: sha512-lJ/mG/Lz/ccSwNtwqpFS126mtMVzFVyYv0ddTF9wqwrEG4seECjKDAyw/oGv915rAcJi8jr89990nqfpmG+qdg==}
     engines: {node: ^14.15.0 || >=16.0.0, pnpm: '>=7.14.0'}
     dependencies:
-      '@astrojs/compiler': 1.2.1
+      '@astrojs/compiler': 1.3.2
       prettier: 2.8.8
       sass-formatter: 0.7.6
       synckit: 0.8.5
