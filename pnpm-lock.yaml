@@ -118,7 +118,7 @@ importers:
       eslint-plugin-react: ^7.32.2
       eslint-plugin-react-hooks: ^4.6.0
       husky: ^8.0.3
-      jsdom: ^21.1.1
+      jsdom: ^21.1.2
       lint-staged: ^13.2.2
       prettier: ^2.8.8
       react: ^18.2.0
@@ -144,12 +144,12 @@ importers:
       eslint-plugin-react: 7.32.2_eslint@8.39.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.39.0
       husky: 8.0.3
-      jsdom: 21.1.1
+      jsdom: 21.1.2
       lint-staged: 13.2.2
       prettier: 2.8.8
       typescript: 4.9.5
       vite: 4.3.5
-      vitest: 0.30.1_jsdom@21.1.1
+      vitest: 0.30.1_jsdom@21.1.2
 
   packages/template-svelte-typescript:
     specifiers:
@@ -165,7 +165,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-svelte3: ^4.0.0
       husky: ^8.0.3
-      jsdom: ^21.1.1
+      jsdom: ^21.1.2
       lint-staged: ^13.2.2
       prettier: ^2.8.8
       prettier-plugin-svelte: ^2.10.0
@@ -189,7 +189,7 @@ importers:
       eslint-plugin-prettier: 4.2.1_5pokp25ua6t5ubushhw3tqituq
       eslint-plugin-svelte3: 4.0.0_e3tiew2b4q4prbk4th5mqlc2ou
       husky: 8.0.3
-      jsdom: 21.1.1
+      jsdom: 21.1.2
       lint-staged: 13.2.2
       prettier: 2.8.8
       prettier-plugin-svelte: 2.10.0_f6pmxuoopicxy7gb3t3nvoipzy
@@ -199,7 +199,7 @@ importers:
       tslib: 2.5.0
       typescript: 4.9.5
       vite: 4.3.5
-      vitest: 0.30.1_jsdom@21.1.1
+      vitest: 0.30.1_jsdom@21.1.2
 
   packages/template-typescript:
     specifiers:
@@ -243,7 +243,7 @@ importers:
       eslint: ^8.39.0
       eslint-plugin-vue: ^9.11.0
       husky: ^8.0.3
-      jsdom: ^21.1.1
+      jsdom: ^21.1.2
       lint-staged: ^13.2.2
       prettier: ^2.8.8
       typescript: ^4.9.5
@@ -263,12 +263,12 @@ importers:
       eslint: 8.39.0
       eslint-plugin-vue: 9.11.0_eslint@8.39.0
       husky: 8.0.3
-      jsdom: 21.1.1
+      jsdom: 21.1.2
       lint-staged: 13.2.2
       prettier: 2.8.8
       typescript: 4.9.5
       vite: 4.3.5
-      vitest: 0.30.1_jsdom@21.1.1
+      vitest: 0.30.1_jsdom@21.1.2
       vue-eslint-parser: 9.1.1_eslint@8.39.0
       vue-tsc: 1.6.1_typescript@4.9.5
 
@@ -4519,8 +4519,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom/21.1.1:
-    resolution: {integrity: sha512-Jjgdmw48RKcdAIQyUD1UdBh2ecH7VqwaXPN3ehoZN6MqgVbMn+lRm1aAT1AsdJRAJpwfa4IpwgzySn61h2qu3w==}
+  /jsdom/21.1.2:
+    resolution: {integrity: sha512-sCpFmK2jv+1sjff4u7fzft+pUh2KSUbUrEHYHyfSIbGTIcmnjyp83qg6qLwdJ/I3LpTXx33ACxeRL7Lsyc6lGQ==}
     engines: {node: '>=14'}
     peerDependencies:
       canvas: ^2.5.0
@@ -4541,7 +4541,7 @@ packages:
       http-proxy-agent: 5.0.0
       https-proxy-agent: 5.0.1
       is-potential-custom-element-name: 1.0.1
-      nwsapi: 2.2.2
+      nwsapi: 2.2.4
       parse5: 7.1.2
       rrweb-cssom: 0.6.0
       saxes: 6.0.0
@@ -5487,8 +5487,8 @@ packages:
       boolbase: 1.0.0
     dev: true
 
-  /nwsapi/2.2.2:
-    resolution: {integrity: sha512-90yv+6538zuvUMnN+zCr8LuV6bPFdq50304114vJYJ8RDyK8D5O9Phpbd6SZWgI7PwzmmfN1upeOJlvybDSgCw==}
+  /nwsapi/2.2.4:
+    resolution: {integrity: sha512-NHj4rzRo0tQdijE9ZqAx6kYDcoRwYwSYzCA8MY3JzfxlrvEU0jhnhJT9BhqhJs7I/dKcrDm6TyulaRqZPIhN5g==}
     dev: true
 
   /object-assign/4.1.1:
@@ -7627,7 +7627,7 @@ packages:
       - terser
     dev: true
 
-  /vitest/0.30.1_jsdom@21.1.1:
+  /vitest/0.30.1_jsdom@21.1.2:
     resolution: {integrity: sha512-y35WTrSTlTxfMLttgQk4rHcaDkbHQwDP++SNwPb+7H8yb13Q3cu2EixrtHzF27iZ8v0XCciSsLg00RkPAzB/aA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -7672,7 +7672,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      jsdom: 21.1.1
+      jsdom: 21.1.2
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
