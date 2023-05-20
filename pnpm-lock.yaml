@@ -241,7 +241,7 @@ importers:
       '@vitejs/plugin-vue': ^3.2.0
       '@vitejs/plugin-vue-jsx': ^2.1.1
       eslint: ^8.41.0
-      eslint-plugin-vue: ^9.11.0
+      eslint-plugin-vue: ^9.13.0
       husky: ^8.0.3
       jsdom: ^21.1.2
       lint-staged: ^13.2.2
@@ -261,7 +261,7 @@ importers:
       '@vitejs/plugin-vue': 3.2.0_vite@4.3.8+vue@3.2.47
       '@vitejs/plugin-vue-jsx': 2.1.1_vite@4.3.8+vue@3.2.47
       eslint: 8.41.0
-      eslint-plugin-vue: 9.11.0_eslint@8.41.0
+      eslint-plugin-vue: 9.13.0_eslint@8.41.0
       husky: 8.0.3
       jsdom: 21.1.2
       lint-staged: 13.2.2
@@ -3435,8 +3435,8 @@ packages:
       svelte: 3.58.0
     dev: true
 
-  /eslint-plugin-vue/9.11.0_eslint@8.41.0:
-    resolution: {integrity: sha512-bBCJAZnkBV7ATH4Z1E7CvN3nmtS4H7QUU3UBxPdo8WohRU+yHjnQRALpTbxMVcz0e4Mx3IyxIdP5HYODMxK9cQ==}
+  /eslint-plugin-vue/9.13.0_eslint@8.41.0:
+    resolution: {integrity: sha512-aBz9A8WB4wmpnVv0pYUt86cmH9EkcwWzgEwecBxMoRNhQjTL5i4sqadnwShv/hOdr8Hbl8XANGV7dtX9UQIAyA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
@@ -3447,7 +3447,7 @@ packages:
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
       semver: 7.3.8
-      vue-eslint-parser: 9.1.1_eslint@8.41.0
+      vue-eslint-parser: 9.3.0_eslint@8.41.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -7816,6 +7816,24 @@ packages:
       eslint-scope: 7.2.0
       eslint-visitor-keys: 3.4.0
       espree: 9.5.1
+      esquery: 1.5.0
+      lodash: 4.17.21
+      semver: 7.3.8
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /vue-eslint-parser/9.3.0_eslint@8.41.0:
+    resolution: {integrity: sha512-48IxT9d0+wArT1+3wNIy0tascRoywqSUe2E1YalIC1L8jsUGe5aJQItWfRok7DVFGz3UYvzEI7n5wiTXsCMAcQ==}
+    engines: {node: ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      debug: 4.3.4
+      eslint: 8.41.0
+      eslint-scope: 7.2.0
+      eslint-visitor-keys: 3.4.1
+      espree: 9.5.2
       esquery: 1.5.0
       lodash: 4.17.21
       semver: 7.3.8
