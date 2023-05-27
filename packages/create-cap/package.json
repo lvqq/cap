@@ -46,7 +46,7 @@
     "axios": "^1.4.0",
     "chalk": "5.2.0",
     "commander": "^9.5.0",
-    "inquirer": "9.2.5",
+    "inquirer": "9.2.6",
     "lodash.merge": "^4.6.2",
     "ora": "6.3.1",
     "tar": "^6.1.15"
