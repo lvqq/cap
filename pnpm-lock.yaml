@@ -124,7 +124,7 @@ importers:
       react: ^18.2.0
       react-dom: ^18.2.0
       typescript: ^4.9.5
-      vite: ^4.3.8
+      vite: ^4.3.9
       vitest: ^0.30.1
     dependencies:
       react: 18.2.0
@@ -135,7 +135,7 @@ importers:
       '@types/react-dom': 18.2.4
       '@typescript-eslint/eslint-plugin': 5.59.6_4qbuxpmdupj46lq2zjlghng6yy
       '@typescript-eslint/parser': 5.59.6_5ujgynla27k2qkzlnkldjwsutm
-      '@vitejs/plugin-react': 4.0.0_vite@4.3.8
+      '@vitejs/plugin-react': 4.0.0_vite@4.3.9
       eslint: 8.41.0
       eslint-config-airbnb-base: 15.0.0_bwfkg7osvbtezdkshju7lqq44q
       eslint-config-prettier: 8.8.0_eslint@8.41.0
@@ -148,7 +148,7 @@ importers:
       lint-staged: 13.2.2
       prettier: 2.8.8
       typescript: 4.9.5
-      vite: 4.3.8
+      vite: 4.3.9
       vitest: 0.30.1_jsdom@21.1.2
 
   packages/template-svelte-typescript:
@@ -174,10 +174,10 @@ importers:
       svelte-preprocess: ^4.10.7
       tslib: ^2.5.2
       typescript: ^4.9.5
-      vite: ^4.3.8
+      vite: ^4.3.9
       vitest: ^0.30.1
     devDependencies:
-      '@sveltejs/vite-plugin-svelte': 1.4.0_svelte@3.59.1+vite@4.3.8
+      '@sveltejs/vite-plugin-svelte': 1.4.0_svelte@3.59.1+vite@4.3.9
       '@testing-library/svelte': 3.2.2_svelte@3.59.1
       '@tsconfig/svelte': 3.0.0
       '@typescript-eslint/eslint-plugin': 5.59.6_4qbuxpmdupj46lq2zjlghng6yy
@@ -198,7 +198,7 @@ importers:
       svelte-preprocess: 4.10.7_cnumnonbjyr4j6qimrlvyofpny
       tslib: 2.5.2
       typescript: 4.9.5
-      vite: 4.3.8
+      vite: 4.3.9
       vitest: 0.30.1_jsdom@21.1.2
 
   packages/template-typescript:
@@ -247,7 +247,7 @@ importers:
       lint-staged: ^13.2.2
       prettier: ^2.8.8
       typescript: ^4.9.5
-      vite: ^4.3.8
+      vite: ^4.3.9
       vitest: ^0.30.1
       vue: ^3.2.47
       vue-eslint-parser: ^9.1.1
@@ -258,8 +258,8 @@ importers:
       '@testing-library/vue': 6.6.1_ytpk472cpuswgou22pgntg5z4m
       '@typescript-eslint/eslint-plugin': 5.59.6_4qbuxpmdupj46lq2zjlghng6yy
       '@typescript-eslint/parser': 5.59.6_5ujgynla27k2qkzlnkldjwsutm
-      '@vitejs/plugin-vue': 3.2.0_vite@4.3.8+vue@3.2.47
-      '@vitejs/plugin-vue-jsx': 2.1.1_vite@4.3.8+vue@3.2.47
+      '@vitejs/plugin-vue': 3.2.0_vite@4.3.9+vue@3.2.47
+      '@vitejs/plugin-vue-jsx': 2.1.1_vite@4.3.9+vue@3.2.47
       eslint: 8.41.0
       eslint-plugin-vue: 9.13.0_eslint@8.41.0
       husky: 8.0.3
@@ -267,7 +267,7 @@ importers:
       lint-staged: 13.2.2
       prettier: 2.8.8
       typescript: 4.9.5
-      vite: 4.3.8
+      vite: 4.3.9
       vitest: 0.30.1_jsdom@21.1.2
       vue-eslint-parser: 9.1.1_eslint@8.41.0
       vue-tsc: 1.6.5_typescript@4.9.5
@@ -1108,7 +1108,7 @@ packages:
       tiny-glob: 0.2.9
       tslib: 2.5.2
 
-  /@sveltejs/vite-plugin-svelte/1.4.0_svelte@3.59.1+vite@4.3.8:
+  /@sveltejs/vite-plugin-svelte/1.4.0_svelte@3.59.1+vite@4.3.9:
     resolution: {integrity: sha512-6QupI/jemMfK+yI2pMtJcu5iO2gtgTfcBdGwMZZt+lgbFELhszbDl6Qjh000HgAV8+XUA+8EY8DusOFk8WhOIg==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -1121,8 +1121,8 @@ packages:
       magic-string: 0.26.7
       svelte: 3.59.1
       svelte-hmr: 0.15.1_svelte@3.59.1
-      vite: 4.3.8
-      vitefu: 0.2.3_vite@4.3.8
+      vite: 4.3.9
+      vitefu: 0.2.3_vite@4.3.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1503,7 +1503,7 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: true
 
-  /@vitejs/plugin-react/4.0.0_vite@4.3.8:
+  /@vitejs/plugin-react/4.0.0_vite@4.3.9:
     resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1513,12 +1513,12 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.21.0_@babel+core@7.21.8
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.8
       react-refresh: 0.14.0
-      vite: 4.3.8
+      vite: 4.3.9
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue-jsx/2.1.1_vite@4.3.8+vue@3.2.47:
+  /@vitejs/plugin-vue-jsx/2.1.1_vite@4.3.9+vue@3.2.47:
     resolution: {integrity: sha512-JgDhxstQlwnHBvZ1BSnU5mbmyQ14/t5JhREc6YH5kWyu2QdAAOsLF6xgHoIWarj8tddaiwFrNzLbWJPudpXKYA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1528,20 +1528,20 @@ packages:
       '@babel/core': 7.20.5
       '@babel/plugin-transform-typescript': 7.20.2_@babel+core@7.20.5
       '@vue/babel-plugin-jsx': 1.1.1_@babel+core@7.20.5
-      vite: 4.3.8
+      vite: 4.3.9
       vue: 3.2.47
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@4.3.8+vue@3.2.47:
+  /@vitejs/plugin-vue/3.2.0_vite@4.3.9+vue@3.2.47:
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.3.8
+      vite: 4.3.9
       vue: 3.2.47
     dev: true
 
@@ -7447,7 +7447,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.8_@types+node@18.16.16
+      vite: 4.3.9_@types+node@18.16.16
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -7524,8 +7524,8 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /vite/4.3.8:
-    resolution: {integrity: sha512-uYB8PwN7hbMrf4j1xzGDk/lqjsZvCDbt/JC5dyfxc19Pg8kRm14LinK/uq+HSLNswZEoKmweGdtpbnxRtrAXiQ==}
+  /vite/4.3.9:
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -7556,8 +7556,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.3.8_@types+node@18.16.16:
-    resolution: {integrity: sha512-uYB8PwN7hbMrf4j1xzGDk/lqjsZvCDbt/JC5dyfxc19Pg8kRm14LinK/uq+HSLNswZEoKmweGdtpbnxRtrAXiQ==}
+  /vite/4.3.9_@types+node@18.16.16:
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -7589,7 +7589,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu/0.2.3_vite@4.3.8:
+  /vitefu/0.2.3_vite@4.3.9:
     resolution: {integrity: sha512-75l7TTuU8isAhz1QFtNKjDkqjxvndfMC1AfIMjJ0ZQ59ZD0Ow9QOIsJJX16Wv9PS8f+zMzp6fHy5cCbKG/yVUQ==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -7597,7 +7597,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.3.8
+      vite: 4.3.9
     dev: true
 
   /vitefu/0.2.4_vite@4.3.3:
@@ -7732,7 +7732,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.4.0
       tinypool: 0.4.0
-      vite: 3.2.5_@types+node@18.16.16
+      vite: 4.3.9_@types+node@18.16.16
       vite-node: 0.30.1_@types+node@18.16.16
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
