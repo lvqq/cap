@@ -43,7 +43,7 @@ importers:
       axios: ^1.4.0
       chalk: 5.2.0
       commander: ^9.5.0
-      inquirer: 9.2.5
+      inquirer: 9.2.6
       lodash.merge: ^4.6.2
       ora: 6.3.1
       rimraf: ^3.0.2
@@ -54,7 +54,7 @@ importers:
       axios: 1.4.0
       chalk: 5.2.0
       commander: 9.5.0
-      inquirer: 9.2.5
+      inquirer: 9.2.6
       lodash.merge: 4.6.2
       ora: 6.3.1
       tar: 6.1.15
@@ -4293,8 +4293,8 @@ packages:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
     dev: true
 
-  /inquirer/9.2.5:
-    resolution: {integrity: sha512-Vy3qZFUPKILCgfeg6eEfKSlv4QbwwfGmdoAYqXYGlPEhY4HH0jQv+ynHkEYYE4eBDCDMWKHs77ByfHcy1GyDfA==}
+  /inquirer/9.2.6:
+    resolution: {integrity: sha512-y71l237eJJKS4rl7sQcEUiMhrR0pB/ZnRMMTxLpjJhWL4hdWCT03a6jJnC1w6qIPSRZWEozuieGt3v7XaEJYFw==}
     engines: {node: '>=14.18.0'}
     dependencies:
       ansi-escapes: 4.3.2
