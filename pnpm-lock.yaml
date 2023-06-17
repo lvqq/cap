@@ -250,7 +250,7 @@ importers:
       vite: ^4.3.9
       vitest: ^0.31.4
       vue: ^3.3.4
-      vue-eslint-parser: ^9.3.0
+      vue-eslint-parser: ^9.3.1
       vue-tsc: ^1.6.5
     dependencies:
       vue: 3.3.4
@@ -269,7 +269,7 @@ importers:
       typescript: 4.9.5
       vite: 4.3.9
       vitest: 0.31.4_jsdom@21.1.2
-      vue-eslint-parser: 9.3.0_eslint@8.42.0
+      vue-eslint-parser: 9.3.1_eslint@8.42.0
       vue-tsc: 1.6.5_typescript@4.9.5
 
 packages:
@@ -3357,7 +3357,7 @@ packages:
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
       semver: 7.3.8
-      vue-eslint-parser: 9.3.0_eslint@8.42.0
+      vue-eslint-parser: 9.3.1_eslint@8.42.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -7624,8 +7624,8 @@ packages:
     resolution: {integrity: sha512-eOpPHogvorZRobNqJGhapa0JdwaxpjVvyBp0QIUMRMSf8ZAlqOdEquKuRmw9Qwu0qXtJIWqFtMkmvJjUZmMjVA==}
     dev: false
 
-  /vue-eslint-parser/9.3.0_eslint@8.42.0:
-    resolution: {integrity: sha512-48IxT9d0+wArT1+3wNIy0tascRoywqSUe2E1YalIC1L8jsUGe5aJQItWfRok7DVFGz3UYvzEI7n5wiTXsCMAcQ==}
+  /vue-eslint-parser/9.3.1_eslint@8.42.0:
+    resolution: {integrity: sha512-Clr85iD2XFZ3lJ52/ppmUDG/spxQu6+MAeHXjjyI4I1NUYZ9xmenQp4N0oaHJhrA8OOxltCVxMRfANGa70vU0g==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
