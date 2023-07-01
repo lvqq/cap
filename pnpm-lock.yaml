@@ -14,7 +14,7 @@ importers:
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       husky: ^8.0.3
-      lint-staged: ^13.2.2
+      lint-staged: ^13.2.3
       prettier: ^2.8.8
       typescript: ^4.9.5
       vitest: ^0.31.4
@@ -29,7 +29,7 @@ importers:
       eslint-plugin-import: 2.27.5_4sfevs3vpuvadhjdwbsynzgtpy
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_vnriwwub2rhvoyn4ckagrc4lpi
       husky: 8.0.3
-      lint-staged: 13.2.2
+      lint-staged: 13.2.3
       prettier: 2.8.8
       typescript: 4.9.5
       vitest: 0.31.4
@@ -79,7 +79,7 @@ importers:
       eslint-plugin-astro: ^0.27.2
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
-      lint-staged: ^13.2.2
+      lint-staged: ^13.2.3
       prettier: ^2.8.8
       prettier-plugin-astro: ^0.10.0
       typescript: ^4.9.5
@@ -96,7 +96,7 @@ importers:
       eslint-plugin-astro: 0.27.2_eslint@8.42.0
       eslint-plugin-import: 2.27.5_4sfevs3vpuvadhjdwbsynzgtpy
       eslint-plugin-prettier: 4.2.1_vnriwwub2rhvoyn4ckagrc4lpi
-      lint-staged: 13.2.2
+      lint-staged: 13.2.3
       prettier: 2.8.8
       prettier-plugin-astro: 0.10.0
       typescript: 4.9.5
@@ -119,7 +119,7 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
       husky: ^8.0.3
       jsdom: ^21.1.2
-      lint-staged: ^13.2.2
+      lint-staged: ^13.2.3
       prettier: ^2.8.8
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -145,7 +145,7 @@ importers:
       eslint-plugin-react-hooks: 4.6.0_eslint@8.42.0
       husky: 8.0.3
       jsdom: 21.1.2
-      lint-staged: 13.2.2
+      lint-staged: 13.2.3
       prettier: 2.8.8
       typescript: 4.9.5
       vite: 4.3.9
@@ -166,7 +166,7 @@ importers:
       eslint-plugin-svelte3: ^4.0.0
       husky: ^8.0.3
       jsdom: ^21.1.2
-      lint-staged: ^13.2.2
+      lint-staged: ^13.2.3
       prettier: ^2.8.8
       prettier-plugin-svelte: ^2.10.1
       svelte: ^3.59.1
@@ -190,7 +190,7 @@ importers:
       eslint-plugin-svelte3: 4.0.0_3vji2slnup2yzxo42w6sbds3sy
       husky: 8.0.3
       jsdom: 21.1.2
-      lint-staged: 13.2.2
+      lint-staged: 13.2.3
       prettier: 2.8.8
       prettier-plugin-svelte: 2.10.1_blbg2s7pis747igzn3ilcyh5ou
       svelte: 3.59.1
@@ -211,7 +211,7 @@ importers:
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       husky: ^8.0.3
-      lint-staged: ^13.2.2
+      lint-staged: ^13.2.3
       prettier: ^2.8.8
       rimraf: ^4.4.1
       tsup: ^6.7.0
@@ -226,7 +226,7 @@ importers:
       eslint-plugin-import: 2.27.5_4sfevs3vpuvadhjdwbsynzgtpy
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_vnriwwub2rhvoyn4ckagrc4lpi
       husky: 8.0.3
-      lint-staged: 13.2.2
+      lint-staged: 13.2.3
       prettier: 2.8.8
       rimraf: 4.4.1
       tsup: 6.7.0_typescript@4.9.5
@@ -244,7 +244,7 @@ importers:
       eslint-plugin-vue: ^9.14.1
       husky: ^8.0.3
       jsdom: ^21.1.2
-      lint-staged: ^13.2.2
+      lint-staged: ^13.2.3
       prettier: ^2.8.8
       typescript: ^4.9.5
       vite: ^4.3.9
@@ -264,7 +264,7 @@ importers:
       eslint-plugin-vue: 9.14.1_eslint@8.42.0
       husky: 8.0.3
       jsdom: 21.1.2
-      lint-staged: 13.2.2
+      lint-staged: 13.2.3
       prettier: 2.8.8
       typescript: 4.9.5
       vite: 4.3.9
@@ -4770,8 +4770,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/13.2.2:
-    resolution: {integrity: sha512-71gSwXKy649VrSU09s10uAT0rWCcY3aewhMaHyl2N84oBk4Xs9HgxvUp3AYu+bNsK4NrOYYxvSgg7FyGJ+jGcA==}
+  /lint-staged/13.2.3:
+    resolution: {integrity: sha512-zVVEXLuQIhr1Y7R7YAWx4TZLdvuzk7DnmrsTNL0fax6Z3jrpFcas+vKbzxhhvp6TA55m1SQuWkpzI1qbfDZbAg==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
