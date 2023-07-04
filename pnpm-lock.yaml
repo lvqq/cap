@@ -105,8 +105,8 @@ importers:
   packages/template-react-typescript:
     specifiers:
       '@testing-library/react': ^13.4.0
-      '@types/react': ^18.2.11
-      '@types/react-dom': ^18.2.4
+      '@types/react': ^18.2.14
+      '@types/react-dom': ^18.2.6
       '@typescript-eslint/eslint-plugin': ^5.59.9
       '@typescript-eslint/parser': ^5.59.9
       '@vitejs/plugin-react': ^4.0.1
@@ -131,8 +131,8 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
-      '@types/react': 18.2.11
-      '@types/react-dom': 18.2.4
+      '@types/react': 18.2.14
+      '@types/react-dom': 18.2.6
       '@typescript-eslint/eslint-plugin': 5.59.9_3i5bqcvz3xm47mwpahnwyqmg7m
       '@typescript-eslint/parser': 5.59.9_kigkzfftsmftz3xok324pyvzui
       '@vitejs/plugin-react': 4.0.1_vite@4.3.9
@@ -1437,7 +1437,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@testing-library/dom': 8.17.1
-      '@types/react-dom': 18.2.4
+      '@types/react-dom': 18.2.6
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: true
@@ -1603,14 +1603,14 @@ packages:
     resolution: {integrity: sha512-SnHmG9wN1UVmagJOnyo/qkk0Z7gejYxOYYmaAwr5u2yFYfsupN3sg10kyzN8Hep/2zbHxCnsumxOoRIRMBwKCg==}
     dev: true
 
-  /@types/react-dom/18.2.4:
-    resolution: {integrity: sha512-G2mHoTMTL4yoydITgOGwWdWMVd8sNgyEP85xVmMKAPUBwQWm9wBPQUmvbeF4V3WBY1P7mmL4BkjQ0SqUpf1snw==}
+  /@types/react-dom/18.2.6:
+    resolution: {integrity: sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==}
     dependencies:
-      '@types/react': 18.2.11
+      '@types/react': 18.2.14
     dev: true
 
-  /@types/react/18.2.11:
-    resolution: {integrity: sha512-+hsJr9hmwyDecSMQAmX7drgbDpyE+EgSF6t7+5QEBAn1tQK7kl1vWZ4iRf6SjQ8lk7dyEULxUmZOIpN0W5baZA==}
+  /@types/react/18.2.14:
+    resolution: {integrity: sha512-A0zjq+QN/O0Kpe30hA1GidzyFjatVvrpIvWLxD+xv67Vt91TWWgco9IvrJBkeyHm1trGaFS/FSGqPlhyeZRm0g==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
