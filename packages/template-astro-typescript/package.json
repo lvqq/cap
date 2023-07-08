@@ -13,7 +13,7 @@
     "lint": "eslint --quiet --ext .ts,.astro ."
   },
   "dependencies": {
-    "astro": "^2.6.3"
+    "astro": "^2.8.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.61.0",
