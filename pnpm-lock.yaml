@@ -250,7 +250,7 @@ importers:
       vite: ^4.4.4
       vitest: ^0.31.4
       vue: ^3.3.4
-      vue-eslint-parser: ^9.3.1
+      vue-eslint-parser: ^9.3.2
       vue-tsc: ^1.8.5
     dependencies:
       vue: 3.3.4
@@ -269,7 +269,7 @@ importers:
       typescript: 4.9.5
       vite: 4.4.4
       vitest: 0.31.4_jsdom@21.1.2
-      vue-eslint-parser: 9.3.1_eslint@8.45.0
+      vue-eslint-parser: 9.3.2_eslint@8.45.0
       vue-tsc: 1.8.5_typescript@4.9.5
 
 packages:
@@ -2237,14 +2237,6 @@ packages:
       acorn: 8.10.0
     dev: true
 
-  /acorn-jsx/5.3.2_acorn@8.8.2:
-    resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
-    peerDependencies:
-      acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-    dependencies:
-      acorn: 8.8.2
-    dev: true
-
   /acorn-walk/8.2.0:
     resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
     engines: {node: '>=0.4.0'}
@@ -3714,7 +3706,7 @@ packages:
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
       semver: 7.3.8
-      vue-eslint-parser: 9.3.1_eslint@8.45.0
+      vue-eslint-parser: 9.3.2_eslint@8.45.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -3798,15 +3790,6 @@ packages:
     dependencies:
       acorn: 8.10.0
       acorn-jsx: 5.3.2_acorn@8.10.0
-      eslint-visitor-keys: 3.4.1
-    dev: true
-
-  /espree/9.5.2:
-    resolution: {integrity: sha512-7OASN1Wma5fum5SrNhFMAMJxOUAbhyfQ8dQ//PJaJbNw0URTPWqIghHWt1MmAANKhHZIYOHruW4Kw4ruUWOdGw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dependencies:
-      acorn: 8.8.2
-      acorn-jsx: 5.3.2_acorn@8.8.2
       eslint-visitor-keys: 3.4.1
     dev: true
 
@@ -8033,8 +8016,8 @@ packages:
     resolution: {integrity: sha512-eOpPHogvorZRobNqJGhapa0JdwaxpjVvyBp0QIUMRMSf8ZAlqOdEquKuRmw9Qwu0qXtJIWqFtMkmvJjUZmMjVA==}
     dev: false
 
-  /vue-eslint-parser/9.3.1_eslint@8.45.0:
-    resolution: {integrity: sha512-Clr85iD2XFZ3lJ52/ppmUDG/spxQu6+MAeHXjjyI4I1NUYZ9xmenQp4N0oaHJhrA8OOxltCVxMRfANGa70vU0g==}
+  /vue-eslint-parser/9.3.2_eslint@8.45.0:
+    resolution: {integrity: sha512-q7tWyCVaV9f8iQyIA5Mkj/S6AoJ9KBN8IeUSf3XEmBrOtxOZnfTg5s4KClbZBCK3GtnT/+RyCLZyDHuZwTuBjg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
@@ -8043,10 +8026,10 @@ packages:
       eslint: 8.45.0
       eslint-scope: 7.2.0
       eslint-visitor-keys: 3.4.1
-      espree: 9.5.2
+      espree: 9.6.0
       esquery: 1.5.0
       lodash: 4.17.21
-      semver: 7.3.8
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
     dev: true
