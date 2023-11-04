@@ -37,7 +37,7 @@ importers:
   packages/create-cap:
     specifiers:
       '@types/inquirer': ^9.0.3
-      '@types/lodash.merge': ^4.6.7
+      '@types/lodash.merge': ^4.6.8
       '@types/node': ^18.16.19
       '@types/tar': ^6.1.5
       axios: ^1.4.0
@@ -60,7 +60,7 @@ importers:
       tar: 6.1.15
     devDependencies:
       '@types/inquirer': 9.0.3
-      '@types/lodash.merge': 4.6.7
+      '@types/lodash.merge': 4.6.8
       '@types/node': 18.16.19
       '@types/tar': 6.1.5
       rimraf: 3.0.2
@@ -1695,8 +1695,8 @@ packages:
     resolution: {integrity: sha512-sqm9g7mHlPY/43fcSNrCYfOeX9zkTTK+euO5E6+CVijSMm5tTjkVdwdqRkY3ljjIAf8679vps5jKUoJBCLsMDA==}
     dev: false
 
-  /@types/lodash.merge/4.6.7:
-    resolution: {integrity: sha512-OwxUJ9E50gw3LnAefSHJPHaBLGEKmQBQ7CZe/xflHkyy/wH2zVyEIAKReHvVrrn7zKdF58p16We9kMfh7v0RRQ==}
+  /@types/lodash.merge/4.6.8:
+    resolution: {integrity: sha512-He1g+VBmRclP+6hT6P6zKlzpFoeOLMgPpMGChgINuxbdPumZCIJsITbqSq2cWXzJu2ltmwVN5TfQ6kj0X06rFQ==}
     dependencies:
       '@types/lodash': 4.14.191
     dev: true
