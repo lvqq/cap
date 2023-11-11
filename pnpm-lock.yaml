@@ -10,7 +10,7 @@ importers:
       conventional-changelog-cli: ^2.2.2
       eslint: ^8.53.0
       eslint-config-airbnb-base: ^15.0.0
-      eslint-config-prettier: ^8.8.0
+      eslint-config-prettier: ^8.10.0
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       husky: ^8.0.3
@@ -25,9 +25,9 @@ importers:
       conventional-changelog-cli: 2.2.2
       eslint: 8.53.0
       eslint-config-airbnb-base: registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_b6fsjnhelimg4w2s64ykknhxh4
-      eslint-config-prettier: 8.8.0_eslint@8.53.0
+      eslint-config-prettier: 8.10.0_eslint@8.53.0
       eslint-plugin-import: 2.27.5_ezaq66gksmvpga7b3h244qjqqi
-      eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_xcb6xsyv54rubcma33aq5xyrea
+      eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_gfj5sbvxlkvyp3htge6w4bwe6a
       husky: 8.0.3
       lint-staged: 13.2.3
       prettier: 2.8.8
@@ -75,7 +75,7 @@ importers:
       astro-eslint-parser: ^0.16.0
       eslint: ^8.53.0
       eslint-config-airbnb-base: ^15.0.0
-      eslint-config-prettier: ^8.8.0
+      eslint-config-prettier: ^8.10.0
       eslint-plugin-astro: ^0.27.2
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
@@ -92,10 +92,10 @@ importers:
       astro-eslint-parser: 0.16.0
       eslint: 8.53.0
       eslint-config-airbnb-base: 15.0.0_b6fsjnhelimg4w2s64ykknhxh4
-      eslint-config-prettier: 8.8.0_eslint@8.53.0
+      eslint-config-prettier: 8.10.0_eslint@8.53.0
       eslint-plugin-astro: 0.27.2_eslint@8.53.0
       eslint-plugin-import: 2.27.5_ezaq66gksmvpga7b3h244qjqqi
-      eslint-plugin-prettier: 4.2.1_xcb6xsyv54rubcma33aq5xyrea
+      eslint-plugin-prettier: 4.2.1_gfj5sbvxlkvyp3htge6w4bwe6a
       lint-staged: 13.2.3
       prettier: 2.8.8
       prettier-plugin-astro: 0.10.0
@@ -112,7 +112,7 @@ importers:
       '@vitejs/plugin-react': ^4.1.1
       eslint: ^8.53.0
       eslint-config-airbnb-base: ^15.0.0
-      eslint-config-prettier: ^8.8.0
+      eslint-config-prettier: ^8.10.0
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-react: ^7.32.2
@@ -138,9 +138,9 @@ importers:
       '@vitejs/plugin-react': 4.1.1_vite@4.4.4
       eslint: 8.53.0
       eslint-config-airbnb-base: 15.0.0_b6fsjnhelimg4w2s64ykknhxh4
-      eslint-config-prettier: 8.8.0_eslint@8.53.0
+      eslint-config-prettier: 8.10.0_eslint@8.53.0
       eslint-plugin-import: 2.27.5_ezaq66gksmvpga7b3h244qjqqi
-      eslint-plugin-prettier: 4.2.1_xcb6xsyv54rubcma33aq5xyrea
+      eslint-plugin-prettier: 4.2.1_gfj5sbvxlkvyp3htge6w4bwe6a
       eslint-plugin-react: 7.32.2_eslint@8.53.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.53.0
       husky: 8.0.3
@@ -160,7 +160,7 @@ importers:
       '@typescript-eslint/parser': ^5.61.0
       eslint: ^8.53.0
       eslint-config-airbnb-base: ^15.0.0
-      eslint-config-prettier: ^8.8.0
+      eslint-config-prettier: ^8.10.0
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-svelte3: ^4.0.0
@@ -184,9 +184,9 @@ importers:
       '@typescript-eslint/parser': 5.61.0_bdjfo4nt5w6vivygtrkrhl46dy
       eslint: 8.53.0
       eslint-config-airbnb-base: 15.0.0_b6fsjnhelimg4w2s64ykknhxh4
-      eslint-config-prettier: 8.8.0_eslint@8.53.0
+      eslint-config-prettier: 8.10.0_eslint@8.53.0
       eslint-plugin-import: 2.27.5_ezaq66gksmvpga7b3h244qjqqi
-      eslint-plugin-prettier: 4.2.1_xcb6xsyv54rubcma33aq5xyrea
+      eslint-plugin-prettier: 4.2.1_gfj5sbvxlkvyp3htge6w4bwe6a
       eslint-plugin-svelte3: 4.0.0_c4rxss6b4u6kfd6usa67xncvna
       husky: 8.0.3
       jsdom: 21.1.2
@@ -207,7 +207,7 @@ importers:
       '@typescript-eslint/parser': ^5.61.0
       eslint: ^8.53.0
       eslint-config-airbnb-base: ^15.0.0
-      eslint-config-prettier: ^8.8.0
+      eslint-config-prettier: ^8.10.0
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       husky: ^8.0.3
@@ -222,9 +222,9 @@ importers:
       '@typescript-eslint/parser': 5.61.0_bdjfo4nt5w6vivygtrkrhl46dy
       eslint: 8.53.0
       eslint-config-airbnb-base: registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_b6fsjnhelimg4w2s64ykknhxh4
-      eslint-config-prettier: 8.8.0_eslint@8.53.0
+      eslint-config-prettier: 8.10.0_eslint@8.53.0
       eslint-plugin-import: 2.27.5_ezaq66gksmvpga7b3h244qjqqi
-      eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_xcb6xsyv54rubcma33aq5xyrea
+      eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_gfj5sbvxlkvyp3htge6w4bwe6a
       husky: 8.0.3
       lint-staged: 13.2.3
       prettier: 2.8.8
@@ -3788,8 +3788,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-prettier/8.8.0_eslint@8.53.0:
-    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
+  /eslint-config-prettier/8.10.0_eslint@8.53.0:
+    resolution: {integrity: sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -3886,7 +3886,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_xcb6xsyv54rubcma33aq5xyrea:
+  /eslint-plugin-prettier/4.2.1_gfj5sbvxlkvyp3htge6w4bwe6a:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -3898,7 +3898,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.53.0
-      eslint-config-prettier: 8.8.0_eslint@8.53.0
+      eslint-config-prettier: 8.10.0_eslint@8.53.0
       prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -8620,7 +8620,7 @@ packages:
       semver: registry.npmmirror.com/semver/6.3.0
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-prettier/4.2.1_xcb6xsyv54rubcma33aq5xyrea:
+  registry.npmmirror.com/eslint-plugin-prettier/4.2.1_gfj5sbvxlkvyp3htge6w4bwe6a:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==, registry: http://registry.npm.org/, tarball: https://registry.npmmirror.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.2.1.tgz}
     id: registry.npmmirror.com/eslint-plugin-prettier/4.2.1
     name: eslint-plugin-prettier
@@ -8635,7 +8635,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.53.0
-      eslint-config-prettier: 8.8.0_eslint@8.53.0
+      eslint-config-prettier: 8.10.0_eslint@8.53.0
       prettier: 2.8.8
       prettier-linter-helpers: registry.npmmirror.com/prettier-linter-helpers/1.0.0
     dev: true
