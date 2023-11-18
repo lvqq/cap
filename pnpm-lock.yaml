@@ -76,7 +76,7 @@ importers:
       eslint: ^8.54.0
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.10.0
-      eslint-plugin-astro: ^0.27.2
+      eslint-plugin-astro: ^0.29.1
       eslint-plugin-import: ^2.27.5
       eslint-plugin-prettier: ^4.2.1
       lint-staged: ^13.2.3
@@ -93,7 +93,7 @@ importers:
       eslint: 8.54.0
       eslint-config-airbnb-base: 15.0.0_sw4tggdi5hnygilpdw4ztctdvy
       eslint-config-prettier: 8.10.0_eslint@8.54.0
-      eslint-plugin-astro: 0.27.2_eslint@8.54.0
+      eslint-plugin-astro: 0.29.1_eslint@8.54.0
       eslint-plugin-import: 2.27.5_4r46igsypymzu2qws7jgkjrtxm
       eslint-plugin-prettier: 4.2.1_gpykmyejmlalemimawo4xcptki
       lint-staged: 13.2.3
@@ -292,6 +292,7 @@ packages:
 
   /@astrojs/compiler/1.5.5:
     resolution: {integrity: sha512-8LEj9nUr5+92ms8/ZUyajcLYqurhXHTNMERctsHZ1JyRrnjseheUHCM+MC34bMP0uOou2JXJFWVJudDTTe4S/A==}
+    dev: false
 
   /@astrojs/compiler/2.3.0:
     resolution: {integrity: sha512-pxYRAaRdMS6XUll8lbFM+Lr0DI1HKIDT+VpiC+S+9di5H/nmm3znZOgdMlLiMxADot+56eps+M1BvtKfQremXA==}
@@ -1630,7 +1631,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.1.2
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
       '@jridgewell/trace-mapping': 0.3.18
 
   /@jridgewell/resolve-uri/3.1.0:
@@ -1651,7 +1652,7 @@ packages:
     resolution: {integrity: sha512-oWZNOULl+UbhsgB51uuZzglikfIKSUBO/M9W2OfEjn7cmqoAiCgmv9lyACTUacZwBz0ITnJ2NqjU8Tx0DHL88g==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /@jridgewell/trace-mapping/0.3.18:
@@ -2042,11 +2043,6 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/types/5.59.9:
-    resolution: {integrity: sha512-uW8H5NRgTVneSVTfiCVffBb8AbwWSKg7qcA4Ot3JI3MPCJGsB4Db4BhvAODIIYE5mNj7Q+VJkK7JxmRhk2Lyjw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dev: true
-
   /@typescript-eslint/types/5.61.0:
     resolution: {integrity: sha512-ldyueo58KjngXpzloHUog/h9REmHl59G1b3a5Sng1GfBo14BkS3ZbMEb3693gnP1k//97lh7bKsp6/V/0v1veQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -2098,7 +2094,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       '@typescript-eslint/types': 5.61.0
-      eslint-visitor-keys: 3.4.1
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /@ungap/structured-clone/1.2.0:
@@ -2585,22 +2581,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /astro-eslint-parser/0.14.0:
-    resolution: {integrity: sha512-3F8l1h7+5MNxzDg1cSQxEloalG7fj64K6vOERChUVG7RLnAzSoafADnPQlU8DpMM3WRNfRHSC4NwUCORk/aPrA==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    dependencies:
-      '@astrojs/compiler': 1.5.5
-      '@typescript-eslint/scope-manager': 5.61.0
-      '@typescript-eslint/types': 5.61.0
-      astrojs-compiler-sync: 0.3.2_@astrojs+compiler@1.5.5
-      debug: 4.3.4
-      eslint-visitor-keys: 3.4.1
-      espree: 9.6.0
-      semver: 7.5.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /astro-eslint-parser/0.16.0:
     resolution: {integrity: sha512-k9ASvY8pa6qttM+fvNJCILxxjftfNg/ou5cjd25SVHsc7moplezGGM9fgMUyf24SRYt8ShO603oHRDn2KqwxMg==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -2693,16 +2673,6 @@ packages:
       - supports-color
       - terser
     dev: false
-
-  /astrojs-compiler-sync/0.3.2_@astrojs+compiler@1.5.5:
-    resolution: {integrity: sha512-q/8Z30WNpsktLKS5NdT/6QAF9Q/C4ucLldqUpHgvRhuj/6jkJyOQfapQxkTKp8MK4RjH9sSsClfrTIdk8JZlKw==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    peerDependencies:
-      '@astrojs/compiler': '>=0.27.0'
-    dependencies:
-      '@astrojs/compiler': 1.5.5
-      synckit: 0.8.5
-    dev: true
 
   /astrojs-compiler-sync/0.3.2_@astrojs+compiler@2.3.0:
     resolution: {integrity: sha512-q/8Z30WNpsktLKS5NdT/6QAF9Q/C4ucLldqUpHgvRhuj/6jkJyOQfapQxkTKp8MK4RjH9sSsClfrTIdk8JZlKw==}
@@ -3800,18 +3770,18 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-astro/0.27.2_eslint@8.54.0:
-    resolution: {integrity: sha512-MUEkKXvj4onjq9/IyLMfbg8nUjY+SznhHcOvKDnHLgqzGzxUEoaOTR+mPZrDIyqAPC716GxpjsK9MDgoYLPyFA==}
+  /eslint-plugin-astro/0.29.1_eslint@8.54.0:
+    resolution: {integrity: sha512-ffuUc7zFz8HavaAVaS5iRUzWqBf3/YbrFWUhx0GxXW3gVtnbri5UyvkN8EMOkZWkNXG1zqD2y9dlEsAezhbC0w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0_eslint@8.54.0
-      '@jridgewell/sourcemap-codec': 1.4.14
-      '@typescript-eslint/types': 5.59.9
-      astro-eslint-parser: 0.14.0
+      '@jridgewell/sourcemap-codec': 1.4.15
+      '@typescript-eslint/types': 5.61.0
+      astro-eslint-parser: 0.16.0
       eslint: 8.54.0
-      postcss: 8.4.23
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.10
     transitivePeerDependencies:
       - supports-color
@@ -5345,14 +5315,14 @@ packages:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
     engines: {node: '>=12'}
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
   /magic-string/0.30.0:
     resolution: {integrity: sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==}
     engines: {node: '>=12'}
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /magic-string/0.30.5:
@@ -6391,15 +6361,6 @@ packages:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
-    dev: true
-
-  /postcss/8.4.23:
-    resolution: {integrity: sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
     dev: true
 
   /postcss/8.4.25:
@@ -7985,7 +7946,7 @@ packages:
     dependencies:
       '@types/node': 18.18.9
       esbuild: 0.17.19
-      postcss: 8.4.25
+      postcss: 8.4.31
       rollup: 3.26.2
     optionalDependencies:
       fsevents: 2.3.2
