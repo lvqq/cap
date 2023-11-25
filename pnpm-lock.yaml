@@ -39,7 +39,7 @@ importers:
       '@types/inquirer': ^9.0.7
       '@types/lodash.merge': ^4.6.9
       '@types/node': ^18.18.13
-      '@types/tar': ^6.1.5
+      '@types/tar': ^6.1.10
       axios: ^1.4.0
       chalk: 5.3.0
       commander: ^9.5.0
@@ -47,7 +47,7 @@ importers:
       lodash.merge: ^4.6.2
       ora: 6.3.1
       rimraf: ^3.0.2
-      tar: ^6.1.15
+      tar: ^6.2.0
       tsup: ^6.7.0
       typescript: ^4.8.3
     dependencies:
@@ -57,12 +57,12 @@ importers:
       inquirer: 9.2.12
       lodash.merge: 4.6.2
       ora: 6.3.1
-      tar: 6.1.15
+      tar: 6.2.0
     devDependencies:
       '@types/inquirer': 9.0.7
       '@types/lodash.merge': 4.6.9
       '@types/node': 18.18.13
-      '@types/tar': 6.1.5
+      '@types/tar': 6.1.10
       rimraf: 3.0.2
       tsup: 6.7.0_typescript@4.8.3
       typescript: 4.8.3
@@ -1806,8 +1806,8 @@ packages:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
     dev: true
 
-  /@types/tar/6.1.5:
-    resolution: {integrity: sha512-qm2I/RlZij5RofuY7vohTpYNaYcrSQlN2MyjucQc7ZweDwaEWkdN/EeNh6e9zjK6uEm6PwjdMXkcj05BxZdX1Q==}
+  /@types/tar/6.1.10:
+    resolution: {integrity: sha512-60ZO+W0tRKJ3ggdzJKp75xKVlNogKYMqGvr2bMH/+k3T0BagfYTnbmVDFMJB1BFttz6yRgP5MDGP27eh7brrqw==}
     dependencies:
       '@types/node': 18.18.13
       minipass: 4.2.4
@@ -7528,8 +7528,8 @@ packages:
       '@pkgr/utils': 2.3.1
       tslib: 2.6.2
 
-  /tar/6.1.15:
-    resolution: {integrity: sha512-/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==}
+  /tar/6.2.0:
+    resolution: {integrity: sha512-/Wo7DcT0u5HUV486xg675HtjNd3BXZ6xDbzsCUZPt5iw8bTQ63bP0Raut3mvro9u+CUyq7YQd8Cx55fsZXxqLQ==}
     engines: {node: '>=10'}
     dependencies:
       chownr: 2.0.0
