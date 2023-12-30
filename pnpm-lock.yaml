@@ -76,7 +76,7 @@ importers:
       eslint: ^8.56.0
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.10.0
-      eslint-plugin-astro: ^0.29.1
+      eslint-plugin-astro: ^0.31.0
       eslint-plugin-import: ^2.29.1
       eslint-plugin-prettier: ^4.2.1
       lint-staged: ^13.3.0
@@ -93,7 +93,7 @@ importers:
       eslint: 8.56.0
       eslint-config-airbnb-base: 15.0.0_p3qtbz6miylwitk5ew22wvdzca
       eslint-config-prettier: 8.10.0_eslint@8.56.0
-      eslint-plugin-astro: 0.29.1_eslint@8.56.0
+      eslint-plugin-astro: 0.31.0_eslint@8.56.0
       eslint-plugin-import: 2.29.1_ldss7zsvu32fsd57pp4tntgdvu
       eslint-plugin-prettier: 4.2.1_cywvuslhzkeaqmqqzfkovv4bsy
       lint-staged: 13.3.0
@@ -3811,6 +3811,15 @@ packages:
       source-map: 0.6.1
     dev: true
 
+  /eslint-compat-utils/0.1.2_eslint@8.56.0:
+    resolution: {integrity: sha512-Jia4JDldWnFNIru1Ehx1H5s9/yxiRHY/TimCuUc0jNexew3cF1gI6CYZil1ociakfWO3rRqFjl1mskBblB3RYg==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      eslint: 8.56.0
+    dev: true
+
   /eslint-config-airbnb-base/15.0.0_p3qtbz6miylwitk5ew22wvdzca:
     resolution: {integrity: sha512-xaX3z4ZZIcFLvh2oUNvcX5oEofXda7giYmuplVxoOg5A7EXJMrUyqRgR+mhDhPK8LZ4PttFOBvCYDbX3sUoUig==}
     engines: {node: ^10.12.0 || >=12.0.0}
@@ -3874,19 +3883,20 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-astro/0.29.1_eslint@8.56.0:
-    resolution: {integrity: sha512-ffuUc7zFz8HavaAVaS5iRUzWqBf3/YbrFWUhx0GxXW3gVtnbri5UyvkN8EMOkZWkNXG1zqD2y9dlEsAezhbC0w==}
+  /eslint-plugin-astro/0.31.0_eslint@8.56.0:
+    resolution: {integrity: sha512-oNZj7bcpCPkebKD7ZfGflAFVUwz78ItdXeK5aVAqFpZZk1JhGaseWdU24f8r26hRte9rrT3EQV4Qwbngp2xSPA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0_eslint@8.56.0
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@typescript-eslint/types': 5.61.0
+      '@typescript-eslint/types': 5.62.0
       astro-eslint-parser: 0.16.0
       eslint: 8.56.0
+      eslint-compat-utils: 0.1.2_eslint@8.56.0
       postcss: 8.4.31
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.13
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6596,14 +6606,6 @@ packages:
     dependencies:
       lilconfig: 2.1.0
       yaml: 1.10.2
-    dev: true
-
-  /postcss-selector-parser/6.0.10:
-    resolution: {integrity: sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==}
-    engines: {node: '>=4'}
-    dependencies:
-      cssesc: 3.0.0
-      util-deprecate: 1.0.2
     dev: true
 
   /postcss-selector-parser/6.0.13:
