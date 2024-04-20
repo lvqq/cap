@@ -37,7 +37,7 @@
     "@types/inquirer": "^9.0.7",
     "@types/lodash.merge": "^4.6.9",
     "@types/node": "^18.19.31",
-    "@types/tar": "^6.1.12",
+    "@types/tar": "^6.1.13",
     "rimraf": "^3.0.2",
     "tsup": "^6.7.0",
     "typescript": "^4.8.3"
