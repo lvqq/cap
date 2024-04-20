@@ -76,7 +76,7 @@ importers:
       eslint: ^8.57.0
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.10.0
-      eslint-plugin-astro: ^0.31.0
+      eslint-plugin-astro: ^0.34.0
       eslint-plugin-import: ^2.29.1
       eslint-plugin-prettier: ^4.2.1
       lint-staged: ^13.3.0
@@ -93,7 +93,7 @@ importers:
       eslint: 8.57.0
       eslint-config-airbnb-base: 15.0.0_jrbq5spb6ym3vlo5mnlvtmgpyy
       eslint-config-prettier: 8.10.0_eslint@8.57.0
-      eslint-plugin-astro: 0.31.0_eslint@8.57.0
+      eslint-plugin-astro: 0.34.0_4lxgoysztp3gakdxqfzw7vhg4u
       eslint-plugin-import: 2.29.1_bok4kcstaiu5mkejbz7cmlqj2q
       eslint-plugin-prettier: 4.2.1_zlbnnhlbce3o4qxi3oryu4rewe
       lint-staged: 13.3.0
@@ -2583,22 +2583,6 @@ packages:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
     dev: true
 
-  /astro-eslint-parser/0.16.0:
-    resolution: {integrity: sha512-k9ASvY8pa6qttM+fvNJCILxxjftfNg/ou5cjd25SVHsc7moplezGGM9fgMUyf24SRYt8ShO603oHRDn2KqwxMg==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    dependencies:
-      '@astrojs/compiler': 2.3.0
-      '@typescript-eslint/scope-manager': 5.62.0
-      '@typescript-eslint/types': 5.62.0
-      astrojs-compiler-sync: 0.3.2_@astrojs+compiler@2.3.0
-      debug: 4.3.4
-      eslint-visitor-keys: 3.4.3
-      espree: 9.6.1
-      semver: 7.5.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /astro-eslint-parser/0.17.0_typescript@4.9.5:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -3847,13 +3831,14 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-compat-utils/0.1.2_eslint@8.57.0:
-    resolution: {integrity: sha512-Jia4JDldWnFNIru1Ehx1H5s9/yxiRHY/TimCuUc0jNexew3cF1gI6CYZil1ociakfWO3rRqFjl1mskBblB3RYg==}
+  /eslint-compat-utils/0.5.0_eslint@8.57.0:
+    resolution: {integrity: sha512-dc6Y8tzEcSYZMHa+CMPLi/hyo1FzNeonbhJL7Ol0ccuKQkwopJcJBA9YL/xmMTLU1eKigXo9vj9nALElWYSowg==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
       eslint: 8.57.0
+      semver: 7.5.4
     dev: true
 
   /eslint-config-airbnb-base/15.0.0_jrbq5spb6ym3vlo5mnlvtmgpyy:
@@ -3919,8 +3904,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-astro/0.31.0_eslint@8.57.0:
-    resolution: {integrity: sha512-oNZj7bcpCPkebKD7ZfGflAFVUwz78ItdXeK5aVAqFpZZk1JhGaseWdU24f8r26hRte9rrT3EQV4Qwbngp2xSPA==}
+  /eslint-plugin-astro/0.34.0_4lxgoysztp3gakdxqfzw7vhg4u:
+    resolution: {integrity: sha512-nzw2H4g7HPXPLsWVpGUxuJ/ViVPLI8lM/AaUCJ51qTLTWtaMhvlvoe2d7yIPMFc+7xeCzQdo1POK8eR7NFsdKQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=7.0.0'
@@ -3928,13 +3913,15 @@ packages:
       '@eslint-community/eslint-utils': 4.4.0_eslint@8.57.0
       '@jridgewell/sourcemap-codec': 1.4.15
       '@typescript-eslint/types': 5.62.0
-      astro-eslint-parser: 0.16.0
+      astro-eslint-parser: 0.17.0_typescript@4.9.5
       eslint: 8.57.0
-      eslint-compat-utils: 0.1.2_eslint@8.57.0
-      postcss: 8.4.31
+      eslint-compat-utils: 0.5.0_eslint@8.57.0
+      globals: 13.19.0
+      postcss: 8.4.38
       postcss-selector-parser: 6.0.13
     transitivePeerDependencies:
       - supports-color
+      - typescript
     dev: true
 
   /eslint-plugin-import/2.29.1_bok4kcstaiu5mkejbz7cmlqj2q:
@@ -6202,12 +6189,6 @@ packages:
       thenify-all: 1.6.0
     dev: true
 
-  /nanoid/3.3.6:
-    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-    dev: true
-
   /nanoid/3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -6675,15 +6656,6 @@ packages:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
-    dev: true
-
-  /postcss/8.4.31:
-    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
     dev: true
 
   /postcss/8.4.38:
@@ -7363,11 +7335,6 @@ packages:
       minimist: 1.2.6
       sander: 0.5.1
       sourcemap-codec: 1.4.8
-    dev: true
-
-  /source-map-js/1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
-    engines: {node: '>=0.10.0'}
     dev: true
 
   /source-map-js/1.2.0:
