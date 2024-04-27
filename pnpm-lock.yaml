@@ -155,7 +155,7 @@ importers:
     specifiers:
       '@sveltejs/vite-plugin-svelte': ^1.4.0
       '@testing-library/svelte': ^3.2.2
-      '@tsconfig/svelte': ^3.0.0
+      '@tsconfig/svelte': ^5.0.4
       '@typescript-eslint/eslint-plugin': ^5.62.0
       '@typescript-eslint/parser': ^5.62.0
       eslint: ^8.57.0
@@ -179,7 +179,7 @@ importers:
     devDependencies:
       '@sveltejs/vite-plugin-svelte': 1.4.0_svelte@3.59.2+vite@4.5.3
       '@testing-library/svelte': 3.2.2_svelte@3.59.2
-      '@tsconfig/svelte': 3.0.0
+      '@tsconfig/svelte': 5.0.4
       '@typescript-eslint/eslint-plugin': 5.62.0_gceg25gd4xew4ky25uvc7u6nti
       '@typescript-eslint/parser': 5.62.0_4lxgoysztp3gakdxqfzw7vhg4u
       eslint: 8.57.0
@@ -1742,8 +1742,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@tsconfig/svelte/3.0.0:
-    resolution: {integrity: sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==}
+  /@tsconfig/svelte/5.0.4:
+    resolution: {integrity: sha512-BV9NplVgLmSi4mwKzD8BD/NQ8erOY/nUE/GpgWe2ckx+wIQF5RyRirn/QsSSCPeulVpc3RA/iJt6DpfTIZps0Q==}
     dev: true
 
   /@types/aria-query/4.2.2:
