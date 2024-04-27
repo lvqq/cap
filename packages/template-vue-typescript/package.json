@@ -18,7 +18,7 @@
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "@vitejs/plugin-vue": "^3.2.0",
-    "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.19.2",
     "husky": "^8.0.3",
