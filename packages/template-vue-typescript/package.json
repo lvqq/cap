@@ -11,7 +11,7 @@
     "lint": "eslint --quiet --ext .ts,.vue ."
   },
   "dependencies": {
-    "vue": "^3.4.25"
+    "vue": "^3.4.27"
   },
   "devDependencies": {
     "@testing-library/vue": "^6.6.1",
