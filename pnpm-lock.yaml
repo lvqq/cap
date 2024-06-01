@@ -105,7 +105,7 @@ importers:
   packages/template-react-typescript:
     specifiers:
       '@testing-library/react': ^13.4.0
-      '@types/react': ^18.3.1
+      '@types/react': ^18.3.3
       '@types/react-dom': ^18.3.0
       '@typescript-eslint/eslint-plugin': ^5.62.0
       '@typescript-eslint/parser': ^5.62.0
@@ -131,7 +131,7 @@ importers:
       react-dom: 18.3.1_react@18.3.1
     devDependencies:
       '@testing-library/react': 13.4.0_nnrd3gsncyragczmpvfhocinkq
-      '@types/react': 18.3.1
+      '@types/react': 18.3.3
       '@types/react-dom': 18.3.0
       '@typescript-eslint/eslint-plugin': 5.62.0_gceg25gd4xew4ky25uvc7u6nti
       '@typescript-eslint/parser': 5.62.0_4lxgoysztp3gakdxqfzw7vhg4u
@@ -1890,11 +1890,11 @@ packages:
   /@types/react-dom/18.3.0:
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
-      '@types/react': 18.3.1
+      '@types/react': 18.3.3
     dev: true
 
-  /@types/react/18.3.1:
-    resolution: {integrity: sha512-V0kuGBX3+prX+DQ/7r2qsv1NsdfnCLnTgnRJ1pYnxykBhGMz+qj+box5lq7XsO5mtZsBqpjwwTu/7wszPfMBcw==}
+  /@types/react/18.3.3:
+    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.3
