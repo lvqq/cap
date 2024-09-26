@@ -238,7 +238,7 @@ importers:
       '@testing-library/vue': ^6.6.1
       '@typescript-eslint/eslint-plugin': ^5.62.0
       '@typescript-eslint/parser': ^5.62.0
-      '@vitejs/plugin-vue': ^3.2.0
+      '@vitejs/plugin-vue': ^5.1.4
       '@vitejs/plugin-vue-jsx': ^2.1.1
       eslint: ^8.57.0
       eslint-plugin-vue: ^9.26.0
@@ -258,7 +258,7 @@ importers:
       '@testing-library/vue': 6.6.1_iob65o7i5dmvthvjjhy72wg5h4
       '@typescript-eslint/eslint-plugin': 5.62.0_gceg25gd4xew4ky25uvc7u6nti
       '@typescript-eslint/parser': 5.62.0_4lxgoysztp3gakdxqfzw7vhg4u
-      '@vitejs/plugin-vue': 3.2.0_vite@4.5.5+vue@3.4.29
+      '@vitejs/plugin-vue': 5.1.4_vite@4.5.5+vue@3.4.29
       '@vitejs/plugin-vue-jsx': 2.1.1_vite@4.5.5+vue@3.4.29
       eslint: 8.57.0
       eslint-plugin-vue: 9.26.0_eslint@8.57.0
@@ -2146,11 +2146,11 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@4.5.5+vue@3.4.29:
-    resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
-    engines: {node: ^14.18.0 || >=16.0.0}
+  /@vitejs/plugin-vue/5.1.4_vite@4.5.5+vue@3.4.29:
+    resolution: {integrity: sha512-N2XSI2n3sQqp5w7Y/AN/L2XDjBIRGqXko+eDp42sydYSBeJuSm5a1sLf8zakmo8u7tA8NmBgoDLA1HeOESjp9A==}
+    engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
       vite: 4.5.5
@@ -8506,42 +8506,6 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite/4.5.5_@types+node@18.19.34:
-    resolution: {integrity: sha512-ifW3Lb2sMdX+WU91s3R0FyQlAyLxOzCSCP37ujw0+r5POeHPwe6udWVIElKQq8gk3t7b8rkmvqC6IHBpCff4GQ==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': '>= 14'
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      '@types/node': 18.19.34
-      esbuild: 0.18.20
-      postcss: 8.4.47
-      rollup: 3.29.5
-    optionalDependencies:
-      fsevents: 2.3.3
-    dev: true
-
   /vitefu/0.2.3_vite@4.5.5:
     resolution: {integrity: sha512-75l7TTuU8isAhz1QFtNKjDkqjxvndfMC1AfIMjJ0ZQ59ZD0Ow9QOIsJJX16Wv9PS8f+zMzp6fHy5cCbKG/yVUQ==}
     peerDependencies:
@@ -8683,12 +8647,11 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.5.0
-      vite: 4.5.5_@types+node@18.19.34
+      vite: 4.3.9_@types+node@18.19.34
       vite-node: 0.31.4_@types+node@18.19.34
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
-      - lightningcss
       - sass
       - stylus
       - sugarss
