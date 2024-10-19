@@ -11,6 +11,6 @@ export default defineConfig({
     globalSetup: ['./scripts/vitestGlobalSetup.ts'],
   },
   esbuild: {
-    target: 'node14',
+    target: 'node18',
   },
 });
