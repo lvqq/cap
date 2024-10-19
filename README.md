@@ -82,12 +82,12 @@ pnpm test && pnpm test:template
 # Publish
 ## latest
 ```bash
-npm run publish --filter=<pkg>
+pnpm -F=<pkg> publish
 ```
 
 ## beta
 ```bash
-npm run publish:beta --filter=<pkg>
+pnpm -F=<pkg> publish --tag beta
 ```
 
 # License

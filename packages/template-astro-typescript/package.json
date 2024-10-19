@@ -16,20 +16,20 @@
     "astro": "^2.10.15"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
+    "@typescript-eslint/eslint-plugin": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
     "astro-eslint-parser": "^0.17.0",
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.10.0",
+    "eslint": "catalog:",
+    "eslint-config-airbnb-base": "catalog:",
+    "eslint-config-prettier": "catalog:",
     "eslint-plugin-astro": "^0.34.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "lint-staged": "^13.3.0",
-    "prettier": "^2.8.8",
+    "eslint-plugin-import": "catalog:",
+    "eslint-plugin-prettier": "catalog:",
+    "lint-staged": "catalog:",
+    "prettier": "catalog:",
     "prettier-plugin-astro": "^0.10.0",
-    "typescript": "^4.9.5",
-    "vitest": "^0.31.4"
+    "typescript": "catalog:",
+    "vitest": "catalog:"
   },
   "lint-staged": {
     "**/*.{ts,astro}": [
