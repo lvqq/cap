@@ -7,7 +7,6 @@ const testDir = {
   'react-ts': './output/template-react-ts',
   'vue-ts': './output/template-vue-ts',
   'svelte-ts': './output/template-svelte-ts',
-  'astro-ts': './output/template-astro-ts',
 };
 
 describe('create-template-test', () => {
@@ -48,17 +47,6 @@ describe('create-template-test', () => {
     const dir = testDir['svelte-ts'];
     expect.assertions(4);
     await create(dir, { force: true, template: 'svelte-ts' });
-    expect(fs.existsSync(`${dir}/.gitignore`)).toBeTruthy();
-    expect(fs.existsSync(`${dir}/package.json`)).toBeTruthy();
-    const packageJson = await import(`${dir}/package.json`);
-    expect(packageJson.version).toEqual('0.0.0');
-    expect(packageJson.scripts.prepare).toEqual('husky install');
-  });
-
-  test('astro-ts', async () => {
-    const dir = testDir['astro-ts'];
-    expect.assertions(4);
-    await create(dir, { force: true, template: 'astro-ts' });
     expect(fs.existsSync(`${dir}/.gitignore`)).toBeTruthy();
     expect(fs.existsSync(`${dir}/package.json`)).toBeTruthy();
     const packageJson = await import(`${dir}/package.json`);

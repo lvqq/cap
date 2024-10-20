@@ -35,7 +35,7 @@ export const downloadFromNpmToDir = (pkg: string, dir: string, beta = false) =>
       {
         stdio: 'pipe',
         shell: isWin,
-      }
+      },
     );
     if (result?.stdout) {
       const url = result.stdout.toString().trim();
@@ -50,7 +50,7 @@ export const downloadFromNpmToDir = (pkg: string, dir: string, beta = false) =>
                 C: dir,
                 cwd: dir,
                 strip: 1,
-              })
+              }),
             )
             .on('finish', resolve);
         })
@@ -93,7 +93,7 @@ export const cp = async (source: string, target: string): Promise<void> => {
               }
               await cp(subSource, subTarget);
             }
-          })
+          }),
         );
       }
     }
@@ -113,7 +113,7 @@ export const JSONParse = (str: string | null) => {
 
 export const setJsonFileFromDir = async (
   dir: string,
-  configs: Record<string, unknown>
+  configs: Record<string, unknown>,
 ): Promise<void> => {
   const file = await fs.readFile(dir, 'utf-8');
   const json = JSONParse(file.toString());

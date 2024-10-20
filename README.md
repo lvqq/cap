@@ -49,10 +49,7 @@ Use `vite` to build project using `React18` and `TypeScript`
 Use `vite` to build project using `Vue3` and `TypeScript`
 
 ### svelte-ts
-Use `vite` to build project using `Svelte3` and `TypeScript`
-
-### astro-ts
-Project based on `astro` and `TypeScript`
+Use `vite` to build project using `Svelte4` and `TypeScript`
 
 # Development
 First run install

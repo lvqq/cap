@@ -37,7 +37,7 @@ describe('util-test', () => {
 
   test('cp failed', async () => {
     await expect(
-      cp(path.join(cwd, 'output/not_exist_path'), path.join(cwd, 'output/paste'))
+      cp(path.join(cwd, 'output/not_exist_path'), path.join(cwd, 'output/paste')),
     ).rejects.toThrowError(/no such file or directory/);
   });
 });
