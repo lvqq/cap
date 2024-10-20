@@ -1,3 +1,25 @@
 packages:
-  # all packages in subdirs of packages/ and components/
-  - 'packages/**'
+  - packages/**
+catalog:
+  "@types/lodash.merge": ^4.6.9
+  "@types/node": ^18.19.34
+  "@typescript-eslint/eslint-plugin": ^5.62.0
+  "@typescript-eslint/parser": ^5.62.0
+  axios: ^1.7.2
+  eslint: ^8.57.0
+  eslint-config-airbnb-base: ^15.0.0
+  eslint-config-prettier: ^8.10.0
+  eslint-plugin-astro: ^0.34.0
+  eslint-plugin-import: ^2.29.1
+  eslint-plugin-prettier: ^5.2.1
+  husky: ^8.0.3
+  jsdom: ^21.1.2
+  lint-staged: ^13.3.0
+  lodash.merge: ^4.6.2
+  prettier: ^3.3.3
+  rimraf: ^5.0.10
+  tslib: ^2.6.3
+  tsup: ^8.3.0
+  typescript: ^5.6.3
+  vite: ^5.4.8
+  vitest: ^2.1.3

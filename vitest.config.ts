@@ -6,10 +6,11 @@ export default defineConfig({
     testTimeout: 30000,
     coverage: {
       reporter: ['lcov', 'text'],
+      include: ['packages/create-cap/src'],
     },
     globalSetup: ['./scripts/vitestGlobalSetup.ts'],
   },
   esbuild: {
-    target: 'node14',
+    target: 'node18',
   },
 });

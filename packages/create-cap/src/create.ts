@@ -16,7 +16,7 @@ const cwd = process.cwd();
 
 export const create = async (
   name: string,
-  options?: { force?: boolean; template?: string; beta?: boolean }
+  options?: { force?: boolean; template?: string; beta?: boolean },
 ) => {
   const dir = path.resolve(cwd, name);
   const { force, template, beta } = options || {};

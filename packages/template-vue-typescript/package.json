@@ -1,6 +1,6 @@
 {
   "name": "@tooltik/template-vue-typescript",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,21 +15,20 @@
   },
   "devDependencies": {
     "@testing-library/vue": "^6.6.1",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "@vitejs/plugin-vue": "^3.2.0",
-    "@vitejs/plugin-vue-jsx": "^2.1.1",
-    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "eslint": "catalog:",
     "eslint-plugin-vue": "^9.26.0",
-    "husky": "^8.0.3",
-    "jsdom": "^21.1.2",
-    "lint-staged": "^13.3.0",
-    "prettier": "^2.8.8",
-    "typescript": "^4.9.5",
-    "vite": "^4.5.3",
-    "vitest": "^0.31.4",
+    "husky": "catalog:",
+    "jsdom": "catalog:",
+    "lint-staged": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:",
     "vue-eslint-parser": "^9.4.3",
-    "vue-tsc": "^1.8.27"
+    "vue-tsc": "^2.1.6"
   },
   "lint-staged": {
     "**/*.{ts,vue}": [

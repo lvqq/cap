@@ -1,3 +1,14 @@
+# 0.6.0 (2024-10-20)
+
+
+### Features
+
+* upgrade to pnpm v9 catalog and node 18, drop node 14 & 16 ([23ef0c4](https://github.com/lvqq/cap/commit/23ef0c48daaa05d3438c384620b54e44d30a0d71))
+* upgrade typescript and templates dependencies ([9c5a316](https://github.com/lvqq/cap/commit/9c5a316450686aa6f898d28d9c8717cb585ef3f7))
+* drop astro template ([2693b38](https://github.com/lvqq/cap/commit/2693b382780d2df2521f1a633ae765c182332330))
+
+
+
 ## 0.5.1 (2023-04-26)
 
 
