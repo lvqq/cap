@@ -11,23 +11,32 @@ module.exports = {
     'airbnb-base',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:svelte/recommended',
     'prettier',
   ],
-  plugins: ['@typescript-eslint', 'import', 'svelte3', 'prettier'],
+  plugins: ['@typescript-eslint', 'import', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    sourceType: 'module',
-    ecmaVersion: 2021,
+    project: './tsconfig.json',
+    extraFileExtensions: ['.svelte'] // This is a required setting in `@typescript-eslint/parser` v4.24.0.
   },
   overrides: [
     {
       files: ['*.svelte'],
-      processor: 'svelte3/svelte3',
+      parser: 'svelte-eslint-parser',
+      // Parse the `<script>` in `.svelte` as TypeScript by adding the following configuration.
+      parserOptions: {
+        parser: '@typescript-eslint/parser'
+      }
     },
+    {
+      files: ['vite.config.ts'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: './tsconfig.node.json'
+      }
+    }
   ],
-  settings: {
-    'svelte3/typescript': () => require('typescript'),
-  },
   rules: {
     'prettier/prettier': 'error',
     'no-multiple-empty-lines': 0,
